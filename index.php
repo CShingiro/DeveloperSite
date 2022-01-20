@@ -8,6 +8,26 @@
   </head>
   <body>
     <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <div class="navbar-brand">
+              <img class="logo" src="Images/SRGLogo.svg">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms mb-2 mb-lg-0">
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php">Home</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="about.php">About</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="request.php">Site Request</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
     </main>

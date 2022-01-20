@@ -22,7 +22,7 @@
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php">Home</a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="about.php">About</a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="request.php">Site Request</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="contact.php">Contact</a></li>
               </ul>
             </div>
           </div>

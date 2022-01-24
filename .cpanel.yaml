@@ -1,6 +1,6 @@
 deployment:
 	tasks:
-		-export DEPLOYPATH=/home/socially/public_html/cshingiro
+		-export DEPLOYPATH=/home/socially/public_html/
 		-/bin/cp index.php $DEPLOYPATH
 		-/bin/cp webdesign.css $DEPLOYPATH
 		-/bin/cp index.js $DEPLOYPATH

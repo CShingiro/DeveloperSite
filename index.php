@@ -19,10 +19,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms mb-2 mb-lg-0">
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php">Home</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="about.php">About</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="request.php">Site Request</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="contact.php">Contact</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#index">Home</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#about">About</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#request">Site Request</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -30,8 +30,21 @@
       </div>
     </header>
     <main>
+      <div id="index">
+
+      </div>
+      <div id="about">
+
+      </div>
+      <div id="request">
+
+      </div>
+      <div id="contact">
+
+      </div>
     </main>
     <footer>
+      <p id="copyright">&#169; - The Socially Radical Guitarist</p>
     </footer>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>

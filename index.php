@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <title>Socially Radical Web Design</title>
   </head>
   <body>
     <header class="container-fluid">
@@ -39,7 +40,13 @@
       </div>
       <div class="container" id="request">
         <h1>Request A Project</h1>
-        <form method="POST"></form>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text">
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="name@example.com">
+          <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
+        </form>
         <?php
         ?>
       </div>

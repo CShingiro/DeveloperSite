@@ -14,7 +14,6 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png">
-
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,19 +40,36 @@
       <div class="container" id="request">
         <h1>Request A Project</h1>
         <form>
-          <label for="name">Name:</label>
-          <input type="text">
-          <label for="email">Email:</label>
-          <input type="email" name="email" placeholder="name@example.com">
+          <label for="name">Full Name:</label><br>
+          <input type="text" name="name" placeholder="Full Name" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" name="email" placeholder="name@example.com" required><br>
+          <h2>Project Type</h2>
+          <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript" checked>
+          <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
+          <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">
+          <label for="static_site_with_javascript">Static Site With Javascript Animations - $850 + $125 per page</label><br>
+          <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
+          <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
+          <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
+          <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
           <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
         </form>
         <?php
+          require("PHP/database.php");
         ?>
       </div>
       <div class="container" id="contact">
         <h1>General Contact Form</h1>
         <form method="POST"></form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="name" placeholder="Full Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" placeholder="name@example.com" required><br>
+        <label for="message">Message:</label><br>
+        <input type="text" name="message" placeholder="Message" required><br>
         <?php
+          require("PHP/database.php");
         ?>
       </div>
     </main>

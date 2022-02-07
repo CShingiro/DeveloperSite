@@ -5,5 +5,5 @@ deployment:
 		-/bin/cp webdesign.css $DEPLOYPATH
 		-/bin/cp index.js $DEPLOYPATH
 		-/bin/cp -R Images $DEPLOYPATH
-    -/bin/cp README.md
-    -/bin/cp -R PHP
+    		-/bin/cp README.md $DEPLOYPATH
+    		-/bin/cp -R PHP $DEPLOYPATH

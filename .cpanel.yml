@@ -1,9 +1,5 @@
+---
 deployment:
-	tasks:
-		-export DEPLOYPATH=/home/socially/public_html/
-		-/bin/cp index.php $DEPLOYPATH
-		-/bin/cp webdesign.css $DEPLOYPATH
-		-/bin/cp index.js $DEPLOYPATH
-		-/bin/cp -R Images $DEPLOYPATH
-    		-/bin/cp README.md $DEPLOYPATH
-    		-/bin/cp -R PHP $DEPLOYPATH
+  tasks:
+    -export DEPLOYPATH=/home/socially/public_html/
+		- /bin/cp -R * $DEPLOYPATH

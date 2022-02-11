@@ -60,7 +60,7 @@
                   <input type="text" name="name" placeholder="Full Name" required><br>
                   <label for="email">Email:</label><br>
                   <input type="email" name="email" placeholder="name@example.com" required><br>
-                  <h2>Project Type</h2>
+                  <h3>Project Type</h3>
                   <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript" checked>
                   <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
                   <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">

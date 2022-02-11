@@ -30,47 +30,71 @@
         </nav>
       </div>
     </header>
-    <main class="container-fluid">
-      <div class="container" id="about">
-        <h1>About The Designer</h1>
-          <h2>Projects</h2>
-          <h2>Credentials</h2>
-          <h2>Past Work</h2>
+    <main class="accordion">
+      <div class="accordion-item" id="about">
+          <h1 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              About The Designer
+            </button>
+          </h1>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <h2>Projects</h2>
+              <h2>Credentials</h2>
+              <h2>Past Work</h2>
+            </div>
+          </div>
+        </div>
+      <div class="accordion-item" id="request">
+        <h1 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Request A Project
+          </button>
+        </h1>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <form>
+              <label for="name">Full Name:</label><br>
+              <input type="text" name="name" placeholder="Full Name" required><br>
+              <label for="email">Email:</label><br>
+              <input type="email" name="email" placeholder="name@example.com" required><br>
+              <h2>Project Type</h2>
+              <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript" checked>
+              <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
+              <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">
+              <label for="static_site_with_javascript">Static Site With Javascript Animations - $850 + $125 per page</label><br>
+              <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
+              <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
+              <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
+              <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
+              <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
+            </form>
+            <?php
+              require("PHP/database.php");
+            ?>
+          </div>
+        </div>
       </div>
-      <div class="container" id="request">
-        <h1>Request A Project</h1>
-        <form>
-          <label for="name">Full Name:</label><br>
-          <input type="text" name="name" placeholder="Full Name" required><br>
-          <label for="email">Email:</label><br>
-          <input type="email" name="email" placeholder="name@example.com" required><br>
-          <h2>Project Type</h2>
-          <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript" checked>
-          <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
-          <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">
-          <label for="static_site_with_javascript">Static Site With Javascript Animations - $850 + $125 per page</label><br>
-          <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
-          <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
-          <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
-          <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
-          <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
-        </form>
-        <?php
-          require("PHP/database.php");
-        ?>
-      </div>
-      <div class="container" id="contact">
-        <h1>General Contact Form</h1>
-        <form method="POST"></form>
-        <label for="name">Full Name:</label><br>
-        <input type="text" name="name" placeholder="Full Name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" name="email" placeholder="name@example.com" required><br>
-        <label for="message">Message:</label><br>
-        <input type="text" name="message" placeholder="Message" required><br>
-        <?php
-          require("PHP/database.php");
-        ?>
+      <div class="accordion-item" id="contact">
+        <h1 class="accordion-header" id="headingThree">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            General Contact Form
+          </button>
+        </h1>
+        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <form method="POST"></form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" name="name" placeholder="Full Name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="name@example.com" required><br>
+            <label for="message">Message:</label><br>
+            <input type="text" name="message" placeholder="Message" required><br>
+            <?php
+              require("PHP/database.php");
+            ?>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="container-fluid">

@@ -95,9 +95,6 @@
                 <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
                 <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
               </form>
-              <?php
-                require("PHP/database.php");
-              ?>
             </div>
           </div>
           <div class="container">
@@ -110,9 +107,6 @@
                 <input type="email" name="email" placeholder="name@example.com" required><br>
                 <label for="message">Message:</label><br>
                 <input type="text" name="message" placeholder="Message" required><br>
-                <?php
-                  require("PHP/database.php");
-                ?>
               </div>
             </div>
       </main>

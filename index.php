@@ -34,25 +34,25 @@
       <div class="container">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item" id="about">
-            <h1 class="accordion-header" id="headingOne">
+            <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 About The Designer
               </button>
-            </h1>
+            </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <h2>Projects</h2>
-                <h2>Credentials</h2>
-                <h2>Past Work</h2>
+                <h3>Projects</h3>
+                <h3>Credentials</h3>
+                <h3>Past Work</h3>
               </div>
             </div>
           </div>
           <div class="accordion-item" id="request">
-            <h1 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                 Request A Project
               </button>
-            </h1>
+            </h2>
             <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <form>
@@ -78,11 +78,11 @@
             </div>
           </div>
           <div class="accordion-item" id="contact">
-            <h1 class="accordion-header" id="headingThree">
+            <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                 General Contact Form
               </button>
-            </h1>
+            </h2>
             <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <form method="POST"></form>

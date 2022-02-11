@@ -8,7 +8,7 @@
     <title>Socially Radical Web Design</title>
   </head>
   <body>
-    <header class="container-fluid">
+    <div class="container-fluid">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
@@ -29,8 +29,8 @@
           </div>
         </nav>
       </div>
-    </header>
-    <main class="container-fluid">
+    </div>
+    <div class="container-fluid">
       <div class="container">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item" id="about">
@@ -100,12 +100,12 @@
           </div>
         </div>
       </div>
-    </main>
-    <footer class="container-fluid">
+    </div>
+    <div class="container-fluid">
       <div class="container">
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
       </div>
-    </footer>
+    </div>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>

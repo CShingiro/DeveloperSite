@@ -37,7 +37,7 @@
             <div class="accordion" id="accordionExample">
               <div id="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Projects
                   </button>
                 </h2>
@@ -74,44 +74,47 @@
             </div>
           </div>
         </div>
-        <div id="request">
-          <h2>Request A Project</h2>
-            <form>
-              <label for="name">Full Name:</label><br>
-              <input type="text" name="name" placeholder="Full Name" required><br>
-              <label for="email">Email:</label><br>
-              <input type="email" name="email" placeholder="name@example.com" required><br>
-              <h3>Project Type</h3>
-              <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
-              <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>
-              <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript">
-              <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
-              <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">
-              <label for="static_site_with_javascript">Static Site With Javascript Animations - $850 + $125 per page</label><br>
-              <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
-              <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
-              <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
-              <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
-              <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
-            </form>
-            <?php
-              require("PHP/database.php");
-            ?>
-          </div>
-          <div id="contact">
-            <h2>General Contact Form</h2>
-              <form method="POST"></form>
-              <label for="name">Full Name:</label><br>
-              <input type="text" name="name" placeholder="Full Name" required><br>
-              <label for="email">Email:</label><br>
-              <input type="email" name="email" placeholder="name@example.com" required><br>
-              <label for="message">Message:</label><br>
-              <input type="text" name="message" placeholder="Message" required><br>
+        <div class="container">
+          <div id="request">
+            <h2>Request A Project</h2>
+              <form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" name="name" placeholder="Full Name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="name@example.com" required><br>
+                <h3>Project Type</h3>
+                <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
+                <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>
+                <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript">
+                <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
+                <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">
+                <label for="static_site_with_javascript">Static Site With Javascript Animations - $850 + $125 per page</label><br>
+                <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
+                <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
+                <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
+                <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
+                <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
+              </form>
               <?php
                 require("PHP/database.php");
               ?>
+            </div>
           </div>
-        </div>
+          <div class="container">
+            <div id="contact">
+              <h2>General Contact Form</h2>
+                <form method="POST"></form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" name="name" placeholder="Full Name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="name@example.com" required><br>
+                <label for="message">Message:</label><br>
+                <input type="text" name="message" placeholder="Message" required><br>
+                <?php
+                  require("PHP/database.php");
+                ?>
+              </div>
+            </div>
       </main>
     <footer>
       <div class="container">

@@ -41,10 +41,10 @@
                     Projects
                   </button>
                 </h2>
-              </div>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Test #1
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Test #1
+                  </div>
                 </div>
               </div>
               <div id="accordion-item">
@@ -72,6 +72,7 @@
                 </div>
               </div>
             </div>
+          </div>
         </div>
         <div id="request">
           <h2>Request A Project</h2>

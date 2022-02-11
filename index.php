@@ -32,7 +32,7 @@
     </header>
     <main class="container-fluid">
       <div class="container">
-        <div class="accordion">
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item" id="about">
             <h1 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

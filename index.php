@@ -31,6 +31,7 @@
       </div>
     </header>
     <main>
+
       <div class="container">
         <div id="about">
           <h2>About The Designer</h2>
@@ -74,6 +75,9 @@
             </div>
           </div>
         </div>
+        <br>
+        <br>
+        <br>
         <div class="container">
           <div id="request">
             <h2>Request A Project</h2>
@@ -97,6 +101,9 @@
               </form>
             </div>
           </div>
+          <br>
+          <br>
+          <br>
           <div class="container">
             <div id="contact">
               <h2>General Contact Form</h2>
@@ -110,6 +117,9 @@
               </div>
             </div>
       </main>
+      <br>
+      <br>
+      <br>
     <footer>
       <div class="container">
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>

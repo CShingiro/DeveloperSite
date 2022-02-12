@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'romande';
+    src: url(Fonts/romande-adf.std-italic.ttf);
+}
+
+.main-site-font {
+  font-family: 'romande';
+}

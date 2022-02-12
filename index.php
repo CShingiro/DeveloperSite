@@ -14,7 +14,7 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
-              <p class="main-site-font">Socially Radical Web Design at a Socially Reasonable Price</p>
+              <p id="main-site-font">Socially Radical Web Design at a Socially Reasonable Price</p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -64,14 +64,14 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <h3 class="main-site-font">Awards</h3><br>
+                    <h3>Awards</h3><br>
                     <iframe src="Images/AwardLetter.pdf" width="60%" height="300px"></iframe><br>
                     <br>
-                    <h3 class="main-site-font">Education</h3><br>
+                    <h3 id="main-site-font">Education</h3><br>
                     <iframe src="Images/ConestogaOfficialTranscript.pdf" width="60%" height="300px"></iframe><br><br>
                     <iframe src="Images/ProofofProgramCompletion.pdf" width="60%" height="300px"></iframe><br>
                     <br>
-                    <h3 class="main-site-font">Certificates</h3><br>
+                    <h3>Certificates</h3><br>
                     <p>Coming Soon! After convocation!</p>
                   </div>
                 </div>
@@ -97,21 +97,21 @@
                         <div class="carousel-item active">
                           <img src="Images/Showcase1.png" class="d-block w-60" alt="First Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5>Wordpress Individual Project</h5>
+                            <h5 id="main-site-font">Wordpress Individual Project</h5>
                             <p><a href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase2.png" class="d-block w-60" alt="Second Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5>Socially Radical Guitarist Pilot Blog</h5>
+                            <h5 id="main-site-font">Socially Radical Guitarist Pilot Blog</h5>
                             <p><a href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase3.png" class="d-block w-60" alt="Third Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5>Socially Radical Guitarist Pilot Blog #2</h5>
+                            <h5 id="main-site-font">Socially Radical Guitarist Pilot Blog #2</h5>
                             <p><a href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
                           </div>
                         </div>
@@ -125,14 +125,14 @@
                         <div class="carousel-item">
                           <img src="Images/Showcase5.png" class="d-block w-60" alt="Fifth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5>Collaborative Coffee Shop Project</h5>
+                            <h5 id="main-site-font">Collaborative Coffee Shop Project</h5>
                             <p><a href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase6.png" class="d-block w-60" alt="Sixth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5>The Socially Radical Guitarist Website</h5>
+                            <h5 id="main-site-font">The Socially Radical Guitarist Website</h5>
                             <p><a href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>
                           </div>
                         </div>
@@ -157,14 +157,14 @@
         <br>
         <div class="container">
           <div id="request">
-            <h2 class="main-site-font">Request A Project</h2>
+            <h2 id="main-site-font">Request A Project</h2>
               <form>
                 <label for="name">Full Name:</label><br>
                 <input type="text" name="name" placeholder="Full Name" required><br>
                 <label for="email">Email:</label><br>
                 <input type="email" name="email" placeholder="name@example.com" required><br>
                 <br>
-                <h3 class="main-site-font">Project Type</h3>
+                <h3>Project Type</h3>
                 <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
                 <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>
                 <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript">
@@ -184,7 +184,7 @@
           <br>
           <div class="container">
             <div id="contact">
-              <h2 class="main-site-font">General Contact Form</h2>
+              <h2 id="main-site-font">General Contact Form</h2>
                 <form method="POST"></form>
                 <label for="name">Full Name:</label><br>
                 <input type="text" name="name" placeholder="Full Name" required><br>

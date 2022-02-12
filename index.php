@@ -13,7 +13,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img class="logo" src="Images/SRWBLogo.png">
+              <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top">
+              Socially Radical Web Design at a Socially Reasonable Price
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -45,7 +46,7 @@
                     Projects
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     Test #1
                   </div>
@@ -59,7 +60,15 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Test #2
+                    <h3>Awards</h3><br>
+                    <iframe src="Images/AwardLetter.pdf" width="100%" height="500px"><br>
+                    <br>
+                    <h3>Education</h3><br>
+                    <iframe src="Images/ConestogaOfficialTranscript.pdf" width="100%" height="500px"><br><br>
+                    <iframe src="Images/ProofofProgramCompletion.pdf" width="100%" height="500px"><br>                    
+                    <br>
+                    <h3>Certificates</h3><br>
+                    <p>Coming Soon! After convocation!</p>
                   </div>
                 </div>
               </div>
@@ -89,6 +98,7 @@
                 <input type="text" name="name" placeholder="Full Name" required><br>
                 <label for="email">Email:</label><br>
                 <input type="email" name="email" placeholder="name@example.com" required><br>
+                <br>
                 <h3>Project Type</h3>
                 <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
                 <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>

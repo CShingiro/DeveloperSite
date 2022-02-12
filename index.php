@@ -12,7 +12,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a id="main-site-font" class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
               Socially Radical Web Design at a Socially Reasonable Price
             </a>
@@ -38,7 +38,7 @@
 
       <div class="container">
         <div id="about">
-          <h2>About The Designer</h2>
+          <h2 id="main-site-font">About The Designer</h2>
             <div class="accordion" id="accordionExample">
               <div id="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -64,14 +64,14 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <h3>Awards</h3><br>
+                    <h3 id="main-site-font">Awards</h3><br>
                     <iframe src="Images/AwardLetter.pdf" width="60%" height="300px"></iframe><br>
                     <br>
                     <h3>Education</h3><br>
                     <iframe src="Images/ConestogaOfficialTranscript.pdf" width="60%" height="300px"></iframe><br><br>
                     <iframe src="Images/ProofofProgramCompletion.pdf" width="60%" height="300px"></iframe><br>
                     <br>
-                    <h3>Certificates</h3><br>
+                    <h3 id="main-site-font">Certificates</h3><br>
                     <p>Coming Soon! After convocation!</p>
                   </div>
                 </div>
@@ -157,7 +157,7 @@
         <br>
         <div class="container">
           <div id="request">
-            <h2>Request A Project</h2>
+            <h2 id="main-site-font">Request A Project</h2>
               <form>
                 <label for="name">Full Name:</label><br>
                 <input type="text" name="name" placeholder="Full Name" required><br>
@@ -184,7 +184,7 @@
           <br>
           <div class="container">
             <div id="contact">
-              <h2>General Contact Form</h2>
+              <h2 id="main-site-font">General Contact Form</h2>
                 <form method="POST"></form>
                 <label for="name">Full Name:</label><br>
                 <input type="text" name="name" placeholder="Full Name" required><br>
@@ -192,6 +192,7 @@
                 <input type="email" name="email" placeholder="name@example.com" required><br>
                 <label for="message">Message:</label><br>
                 <input type="text" name="message" placeholder="Message" required><br>
+                <input type="submit" formaction="#contact" formmethod="POST" value="Contact Socially Radical Web Design">
               </div>
             </div>
       </main>

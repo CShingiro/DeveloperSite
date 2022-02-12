@@ -203,6 +203,7 @@
     <footer>
       <div class="container">
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
+        <a href="https://linkedin.com/in/sociallyradicalwebdesign.com"><img src="Images/linkedin.svg"></a>
       </div>
     </footer>
     <script src="index.js"></script>

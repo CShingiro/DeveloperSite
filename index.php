@@ -94,42 +94,42 @@
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img src="Images/Showcase1.png" class="d-block w-60" alt="First Showcase Site">
+                          <img src="Images/Showcase1.png" class="d-block w-100" alt="First Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
                             <h5>Wordpress Individual Project</h5>
                             <p><a href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase2.png" class="d-block w-60" alt="Second Showcase Site">
+                          <img src="Images/Showcase2.png" class="d-block w-100" alt="Second Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
                             <h5>Socially Radical Guitarist Pilot Blog</h5>
                             <p><a href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase3.png" class="d-block w-60" alt="Third Showcase Site">
+                          <img src="Images/Showcase3.png" class="d-block w-100" alt="Third Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
                             <h5>Socially Radical Guitarist Pilot Blog #2</h5>
                             <p><a href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase4.png" class="d-block w-60" alt="Fourth Showcase Site">
+                          <img src="Images/Showcase4.png" class="d-block w-100" alt="Fourth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
                             <h5>Collaborative Wordpress Project</h5>
                             <p><a href="https://dev-chrisolysimhotel.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase5.png" class="d-block w-60" alt="Fifth Showcase Site">
+                          <img src="Images/Showcase5.png" class="d-block w-100" alt="Fifth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
                             <h5>Collaborative Coffee Shop Project</h5>
                             <p><a href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase6.png" class="d-block w-60" alt="Sixth Showcase Site">
+                          <img src="Images/Showcase6.png" class="d-block w-100" alt="Sixth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
                             <h5>The Socially Radical Guitarist Website</h5>
                             <p><a href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>

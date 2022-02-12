@@ -14,7 +14,7 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
-              <p id="main-site-font">Socially Radical Web Design at a Socially Reasonable Price</p>
+              <p>Socially Radical Web Design at a Socially Reasonable Price</p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
 
       <div class="container">
         <div id="about">
-          <h2 class="main-site-font">About The Designer</h2>
+          <h2>About The Designer</h2>
             <div class="accordion" id="accordionExample">
               <div id="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -67,7 +67,7 @@
                     <h3>Awards</h3><br>
                     <iframe src="Images/AwardLetter.pdf" width="60%" height="300px"></iframe><br>
                     <br>
-                    <h3 id="main-site-font">Education</h3><br>
+                    <h3>Education</h3><br>
                     <iframe src="Images/ConestogaOfficialTranscript.pdf" width="60%" height="300px"></iframe><br><br>
                     <iframe src="Images/ProofofProgramCompletion.pdf" width="60%" height="300px"></iframe><br>
                     <br>
@@ -97,21 +97,21 @@
                         <div class="carousel-item active">
                           <img src="Images/Showcase1.png" class="d-block w-60" alt="First Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5 id="main-site-font">Wordpress Individual Project</h5>
+                            <h5>Wordpress Individual Project</h5>
                             <p><a href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase2.png" class="d-block w-60" alt="Second Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5 id="main-site-font">Socially Radical Guitarist Pilot Blog</h5>
+                            <h5>Socially Radical Guitarist Pilot Blog</h5>
                             <p><a href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase3.png" class="d-block w-60" alt="Third Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5 id="main-site-font">Socially Radical Guitarist Pilot Blog #2</h5>
+                            <h5>Socially Radical Guitarist Pilot Blog #2</h5>
                             <p><a href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
                           </div>
                         </div>
@@ -125,14 +125,14 @@
                         <div class="carousel-item">
                           <img src="Images/Showcase5.png" class="d-block w-60" alt="Fifth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5 id="main-site-font">Collaborative Coffee Shop Project</h5>
+                            <h5>Collaborative Coffee Shop Project</h5>
                             <p><a href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase6.png" class="d-block w-60" alt="Sixth Showcase Site">
                           <div class="carousel-caption d-none d-md-block">
-                            <h5 id="main-site-font">The Socially Radical Guitarist Website</h5>
+                            <h5>The Socially Radical Guitarist Website</h5>
                             <p><a href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>
                           </div>
                         </div>
@@ -157,7 +157,7 @@
         <br>
         <div class="container">
           <div id="request">
-            <h2 id="main-site-font">Request A Project</h2>
+            <h2>Request A Project</h2>
               <form>
                 <label for="name">Full Name:</label><br>
                 <input type="text" name="name" placeholder="Full Name" required><br>
@@ -184,7 +184,7 @@
           <br>
           <div class="container">
             <div id="contact">
-              <h2 id="main-site-font">General Contact Form</h2>
+              <h2>General Contact Form</h2>
                 <form method="POST"></form>
                 <label for="name">Full Name:</label><br>
                 <input type="text" name="name" placeholder="Full Name" required><br>

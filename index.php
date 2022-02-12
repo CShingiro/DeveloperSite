@@ -190,8 +190,9 @@
                 <input type="text" name="name" placeholder="Full Name" required><br>
                 <label for="email">Email:</label><br>
                 <input type="email" name="email" placeholder="name@example.com" required><br>
-                <label for="message">Message:</label><br>
-                <input type="text" name="message" placeholder="Message" required><br>
+                <label for="message">Subject:</label><br>
+                <input type="text" name="subject" placeholder="Subject" required><br>
+                <textarea placeholder="Message/Comment" name="text" required><br>
                 <input type="submit" formaction="#contact" formmethod="POST" value="Contact Socially Radical Web Design">
               </div>
             </div>

@@ -218,7 +218,7 @@
     <br>
     <footer>
       <div class="container">
-        <a href="https://linkedin.com/in/sociallyradicalwebdesign.com"><img src="Images/linkedin.svg"></a>
+        <a href="https://linkedin.com/in/sociallyradicalwebdesign.com"><img src="Images/linkedin.svg" width="60px" height="60px"></a>
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
       </div>
     </footer>

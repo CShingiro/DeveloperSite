@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img class="logo" src="Images/SRWBLogo.svg" width="300" height="240" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
+              <img class="logo" src="Images/SRWBLogo.png" width="60" height="48" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
               Socially Radical and Reasonable
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

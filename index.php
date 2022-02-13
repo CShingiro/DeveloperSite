@@ -35,7 +35,7 @@
     <br>
     <br>
     <main>
-      <p id="slogan">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
+      <p class="text-center">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
       <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
         <div id="about">
           <h2 class="text-center">About The Designer</h2>
@@ -187,7 +187,7 @@
               <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
               <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
               <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
-              <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
+              <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br><br>
               <label for="notes">Notes/Special Instructions:</label><br>
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="message" required></textarea><br>
               <input type="submit" formaction="#about" formmethod="POST" value="Order Website"><br>

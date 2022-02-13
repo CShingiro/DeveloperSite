@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-success bg-gradient bg-opacity-50">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success bg-gradient bg-opacity-50 rounded-3 border-white">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
@@ -35,7 +35,7 @@
     <br>
     <br>
     <main>
-      <div class="container bg-success bg-gradient bg-opacity-50">
+      <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border-white">
         <div id="about">
           <h2>About The Designer</h2>
             <div class="accordion" id="accordionExample">
@@ -155,7 +155,7 @@
         <br>
         <br>
         <br>
-        <div class="container bg-success bg-gradient bg-opacity-50">
+        <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border-white">
           <div id="request">
             <h2>Request A Project</h2>
             <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span><br>
@@ -196,7 +196,7 @@
         <br>
         <br>
         <br>
-        <div class="container bg-success bg-gradient bg-opacity-50">
+        <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border-white">
           <div id="contact">
             <h2>General Contact Form</h2>
             <form method="POST"></form>

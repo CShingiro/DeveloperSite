@@ -38,8 +38,8 @@
       <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
         <div id="about">
           <h2>About The Designer</h2>
-            <div class="accordion" id="accordionExample">
-              <div id="accordion-item rounded-3 border border-dark border-3">
+            <div class="accordion rounded-3 border border-dark border-3" id="accordionExample">
+              <div id="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Biography
@@ -56,7 +56,7 @@
                   </div>
                 </div>
               </div>
-              <div id="accordion-item rounded-3 border border-dark border-3">
+              <div id="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Credentials
@@ -76,7 +76,7 @@
                   </div>
                 </div>
               </div>
-              <div id="accordion-item rounded-3 border border-dark border-3">
+              <div id="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Past Work

@@ -193,7 +193,7 @@
             <label for="message">Subject:</label><br>
             <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
             <label for="message">Message:</label><br>
-            <textarea id="message" placeholder="Message/Comment" name="message" required></textarea><br>
+            <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
             <input type="submit" formaction="#contact" formmethod="POST" value="Contact Socially Radical Web Design">
           </div>
         </div>

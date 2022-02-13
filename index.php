@@ -14,7 +14,6 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
-              <span>Socially Radical and Reasonable<span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,11 +34,12 @@
     <br>
     <br>
     <main>
+      <p class="text-center fst-italic">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
       <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
         <div id="about">
           <h2>About The Designer</h2>
             <div class="accordion" id="accordionExample">
-              <div id="accordion-item">
+              <div id="accordion-item rounded-3 border border-dark border-3">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Biography
@@ -56,7 +56,7 @@
                   </div>
                 </div>
               </div>
-              <div id="accordion-item">
+              <div id="accordion-item rounded-3 border border-dark border-3">
                 <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Credentials
@@ -76,7 +76,7 @@
                   </div>
                 </div>
               </div>
-              <div id="accordion-item">
+              <div id="accordion-item rounded-3 border border-dark border-3">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Past Work

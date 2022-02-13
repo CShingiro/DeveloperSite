@@ -35,7 +35,7 @@
     <br>
     <br>
     <main>
-      <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-white border-5">
+      <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
         <div id="about">
           <h2>About The Designer</h2>
             <div class="accordion" id="accordionExample">

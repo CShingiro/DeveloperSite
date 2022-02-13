@@ -14,6 +14,7 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="Images/SRWBLogo.png" class="d-inline-block align-text-top" alt="Socially Radical Web Design Logo">
+              Socially Radical and Reasonable
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,6 @@
     <br>
     <br>
     <main>
-
       <div class="container">
         <div id="about">
           <h2>About The Designer</h2>
@@ -158,11 +158,25 @@
         <div class="container">
           <div id="request">
             <h2>Request A Project</h2>
+            <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span>
+            <span class="text-danger">**Fees include cost of all required hosting services for 1 year, including DNS, URL, and MySQL space, if requested.**</span>
             <form>
               <label for="name">Full Name:</label><br>
-              <input type="text" name="name" placeholder="Full Name" required><br>
+              <input type="text" id="name" name="name" placeholder="Full Name" required><br>
               <label for="email">Email:</label><br>
-              <input type="email" name="email" placeholder="name@example.com" required><br>
+              <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
+              <label for="address">Address:</label><br>
+              <input type="text" id="address" name="address" placeholder="123 Example St" required><br>
+              <label for="city">City:</label><br>
+              <input type="text" id="city" name="city" placeholder="Example: Timbuktu" required><br>
+              <label for="province-state-or-territory">Province, State, or Territory:</label><br>
+              <input type="text" id="province-state-or-territory" name="province-state-or-territory" placeholder="Example: Xinjiang" required><br>
+              <label for="zip-or-postal-code">Zip/Postal Code:</label><br>
+              <input type="text" id="zip-or-postal-code" name="zip-or-postal-code" placeholder="Example: 12345, A1A 1A1, or 123456">
+              <label for="country">Country:</label><br>
+              <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br>
+              <label for="notes">Notes/Special Instructions:</label><br>
+              <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="message" required></textarea><br>
               <br>
               <h3>Project Type</h3>
               <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>

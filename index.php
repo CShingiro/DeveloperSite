@@ -66,14 +66,14 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <h3>Awards</h3><br>
+                    <h3 class="text-center">Awards</h3><br>
                     <iframe src="Images/AwardLetter.pdf" width="100%" height="500px"></iframe><br>
                     <br>
-                    <h3>Education</h3><br>
+                    <h3 class="text-center">Education</h3><br>
                     <iframe src="Images/ConestogaOfficialTranscript.pdf" width="100%" height="500px"></iframe><br><br>
                     <iframe src="Images/ProofofProgramCompletion.pdf" width="100%" height="500px"></iframe><br>
                     <br>
-                    <h3>Certificates</h3><br>
+                    <h3 class="text-center">Certificates</h3><br>
                     <p>Coming Soon! After convocation!</p>
                   </div>
                 </div>
@@ -220,6 +220,9 @@
     <footer>
       <div class="container">
         <a href="https://linkedin.com/in/sociallyradicalwebdesign.com"><img src="Images/linkedin.svg" width="60px" height="60px"></a>
+        <a href="#"><img src="Images/facebook.svg" width="60px" height="60px"></a>
+        <a href="#"><img src="Images/instagram.svg" width="60px" height="60px"></a>
+        <a href="#"><img src="Images/twitter.svg" width="60px" height="60px"></a>
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
       </div>
     </footer>

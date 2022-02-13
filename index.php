@@ -50,7 +50,7 @@
                   <div class="accordion-body">
                     <p><strong>Christian Shingiro</strong> is a recent graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College.
                       He already has a few projects under his belt, and is the web master and host of a radio show called <a href="https://sociallyradicalguitarist.com">
-                      The Socially Radical Guitarist</a>. His specialties are Wordpress, Bootstrap, PHP, MySQL, and general Full Stack web development on Linux.
+                      The Socially Radical Guitarist</a>. His specialties are UI/UX design, Wordpress, Bootstrap, PHP, MySQL, and general Full Stack web development on Linux.
                       He aims to be Socially Radical, while providing web services at a rate that's socially reasonable. You can go <a href="https://github.com/CShingiro">here</a>
                       for his public GitHub of complete and ongoing projects.
                     </p>

@@ -39,7 +39,7 @@
       <p class="text-center fst-italic">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
       <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
         <div id="about">
-          <h2>About The Designer</h2>
+          <h2 class="text-center">About The Designer</h2>
             <div class="accordion rounded-3 border border-dark border-3" id="accordionExample">
               <div id="accordion-item">
                 <h2 class="accordion-header" id="headingOne">

@@ -3,6 +3,10 @@
     src: url(Fonts/romande-adf.std-italic.ttf);
 }
 
-h2,h3,h5,#slogan {
+h2,h3,h5 {
+  font-family: 'romande';
+}
+
+#slogan {
   font-family: 'romande';
 }

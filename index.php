@@ -96,42 +96,42 @@
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img src="Images/Showcase1.png" class="d-block w-100" alt="First Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Wordpress Individual Project</h5>
                             <p><a href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase2.png" class="d-block w-100" alt="Second Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Socially Radical Guitarist Pilot Blog</h5>
                             <p><a href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase3.png" class="d-block w-100" alt="Third Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Socially Radical Guitarist Pilot Blog #2</h5>
                             <p><a href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase4.png" class="d-block w-100" alt="Fourth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Collaborative Wordpress Project</h5>
                             <p><a href="https://dev-chrisolysimhotel.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase5.png" class="d-block w-100" alt="Fifth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Collaborative Coffee Shop Project</h5>
                             <p><a href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase6.png" class="d-block w-100" alt="Sixth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>The Socially Radical Guitarist Website</h5>
                             <p><a href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>
                           </div>
@@ -172,7 +172,7 @@
               <label for="province-state-or-territory">Province, State, or Territory:</label><br>
               <input type="text" id="province-state-or-territory" name="province-state-or-territory" placeholder="Example: Xinjiang" required><br>
               <label for="zip-or-postal-code">Zip/Postal Code:</label><br>
-              <input type="text" id="zip-or-postal-code" name="zip-or-postal-code" placeholder="Example: 12345, A1A 1A1, or 123456">
+              <input type="text" id="zip-or-postal-code" name="zip-or-postal-code" placeholder="Example: 12345, A1A 1A1, or 123456"><br>
               <label for="country">Country:</label><br>
               <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br>
               <label for="notes">Notes/Special Instructions:</label><br>

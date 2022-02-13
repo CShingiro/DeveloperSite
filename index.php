@@ -35,7 +35,7 @@
     <br>
     <br>
     <main>
-      <p id="slogan" class="text-center">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
+      <p id="slogan">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
       <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
         <div id="about">
           <h2 class="text-center">About The Designer</h2>

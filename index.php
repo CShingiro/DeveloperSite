@@ -161,6 +161,7 @@
             <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span><br>
             <span class="text-danger">**Fees include cost of all required hosting services, including URL for one year, and MySQL space, if requested.**</span><br>
             <form>
+              <h3>Personal Information</h3><br>
               <label for="name">Full Name:</label><br>
               <input type="text" id="name" name="name" placeholder="Full Name" required><br>
               <label for="email">Email:</label><br>
@@ -174,11 +175,8 @@
               <label for="zip-or-postal-code">Zip/Postal Code:</label><br>
               <input type="text" id="zip-or-postal-code" name="zip-or-postal-code" placeholder="Example: 12345, A1A 1A1, or 123456"><br>
               <label for="country">Country:</label><br>
-              <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br>
-              <label for="notes">Notes/Special Instructions:</label><br>
-              <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="message" required></textarea><br>
-              <br>
-              <h3>Project Type</h3>
+              <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br><br>
+              <h3>Project Type</h3><br>
               <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
               <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>
               <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript">
@@ -189,7 +187,9 @@
               <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
               <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
               <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br>
-              <input type="submit" formaction="#about" formmethod="POST" value="Order Website">
+              <label for="notes">Notes/Special Instructions:</label><br>
+              <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="message" required></textarea><br>
+              <input type="submit" formaction="#about" formmethod="POST" value="Order Website"><br>
             </form>
           </div>
         </div>

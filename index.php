@@ -96,42 +96,42 @@
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img src="Images/Showcase1.png" class="d-block w-100" alt="First Showcase Site">
-                          <div class="carousel-caption d-none d-md-block">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
                             <h5>Wordpress Individual Project</h5>
                             <p><a href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase2.png" class="d-block w-100" alt="Second Showcase Site">
-                          <div class="carousel-caption d-none d-md-block">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
                             <h5>Socially Radical Guitarist Pilot Blog</h5>
                             <p><a href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase3.png" class="d-block w-100" alt="Third Showcase Site">
-                          <div class="carousel-caption d-none d-md-block">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
                             <h5>Socially Radical Guitarist Pilot Blog #2</h5>
                             <p><a href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase4.png" class="d-block w-100" alt="Fourth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
                             <h5>Collaborative Wordpress Project</h5>
                             <p><a href="https://dev-chrisolysimhotel.pantheonsite.io/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase5.png" class="d-block w-100" alt="Fifth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
                             <h5>Collaborative Coffee Shop Project</h5>
                             <p><a href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase6.png" class="d-block w-100" alt="Sixth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25">
                             <h5>The Socially Radical Guitarist Website</h5>
                             <p><a href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>
                           </div>
@@ -158,8 +158,8 @@
         <div class="container">
           <div id="request">
             <h2>Request A Project</h2>
-            <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span>
-            <span class="text-danger">**Fees include cost of all required hosting services for 1 year, including DNS, URL, and MySQL space, if requested.**</span>
+            <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span><br>
+            <span class="text-danger">**Fees include cost of all required hosting services, including URL for one year, and MySQL space, if requested.**</span><br>
             <form>
               <label for="name">Full Name:</label><br>
               <input type="text" id="name" name="name" placeholder="Full Name" required><br>

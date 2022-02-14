@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" href="Images/SRWBLogo.png" width="30" height="30" type="image/png">
     <link rel="stylesheet" href="webdesign.css" type="text/css">
-    <title>Socially Radical Web Design</title>
+    <title>Request Recognized</title>
   </head>
   <body>
     <header>
@@ -21,10 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#index">Home</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#about">About</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#request">Site Request</a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#contact">Contact</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php">Back to Home Page</a></li>
               </ul>
             </div>
           </div>
@@ -36,184 +33,55 @@
     <br>
     <main>
       <p class="text-center fst-italic">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
-      <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
-        <div id="about">
-          <h2 class="text-center">About The Designer</h2>
-            <div class="accordion rounded-3 border border-dark border-3" id="accordionExample">
-              <div id="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    Biography
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img src="ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br>
-                    <p><strong>Christian Shingiro</strong> is a recent graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College.
-                      He already has a few projects under his belt, and is the web master and host of a radio show called <a href="https://sociallyradicalguitarist.com">
-                      The Socially Radical Guitarist</a>. His specialties are UI/UX design, Wordpress, Bootstrap, PHP, MySQL, and general Full Stack web development on Linux.
-                      He aims to be Socially Radical, while providing web services at a rate that's socially reasonable. You can go <a href="https://github.com/CShingiro">here</a>
-                      for his public GitHub of complete and ongoing projects.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div id="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Credentials
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <h3 class="text-center">Awards</h3><br>
-                    <iframe src="Images/AwardLetter.pdf" width="100%" height="500px"></iframe><br>
-                    <br>
-                    <h3 class="text-center">Education</h3><br>
-                    <iframe src="Images/ConestogaOfficialTranscript.pdf" width="100%" height="500px"></iframe><br><br>
-                    <iframe src="Images/ProofofProgramCompletion.pdf" width="100%" height="500px"></iframe><br>
-                    <br>
-                    <h3 class="text-center">Certificates</h3><br>
-                    <p>Coming Soon! After convocation!</p>
-                  </div>
-                </div>
-              </div>
-              <div id="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Past Work
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                      </div>
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="Images/Showcase1.png" class="d-block w-100" alt="First Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>Wordpress Individual Project</h5>
-                            <p><a class="link-light" href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="Images/Showcase2.png" class="d-block w-100" alt="Second Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>Socially Radical Guitarist Pilot Blog</h5>
-                            <p><a class="link-light" href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="Images/Showcase3.png" class="d-block w-100" alt="Third Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>Socially Radical Guitarist Pilot Blog #2</h5>
-                            <p><a class="link-light" href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="Images/Showcase4.png" class="d-block w-100" alt="Fourth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>Collaborative Wordpress Project</h5>
-                            <p><a class="link-light" href="https://dev-chrisolysimhotel.pantheonsite.io/">Link to Site Here</a></p>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="Images/Showcase5.png" class="d-block w-100" alt="Fifth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>Collaborative Coffee Shop Project</h5>
-                            <p><a class="link-light" href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="Images/Showcase6.png" class="d-block w-100" alt="Sixth Showcase Site">
-                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>The Socially Radical Guitarist Website</h5>
-                            <p><a class="link-light" href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
-          <div id="request">
-            <h2>Request A Project</h2>
-            <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span><br>
-            <span class="text-danger">**Fees include cost of all required hosting services, including URL for one year, and MySQL space, if requested.**</span><br>
-            <span class="text-danger">**Prices are all in Canadian Dollars (CAD).**</span><br><br>
-            <form>
-              <h3>Personal Information</h3><br>
-              <label for="name">Full Name:</label><br>
-              <input type="text" id="name" name="name" placeholder="Full Name" required><br>
-              <label for="email">Email:</label><br>
-              <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
-              <label for="address">Address:</label><br>
-              <input type="text" id="address" name="address" placeholder="123 Example St" required><br>
-              <label for="city">City:</label><br>
-              <input type="text" id="city" name="city" placeholder="Example: Timbuktu" required><br>
-              <label for="province-state-or-territory">Province, State, or Territory:</label><br>
-              <input type="text" id="province-state-or-territory" name="province-state-or-territory" placeholder="Example: Xinjiang" required><br>
-              <label for="zip-or-postal-code">Zip/Postal Code:</label><br>
-              <input type="text" id="zip-or-postal-code" name="zip-or-postal-code" placeholder="Example: 12345, A1A 1A1, or 123456"><br>
-              <label for="country">Country:</label><br>
-              <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br><br>
-              <h3>Project Type</h3><br>
-              <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
-              <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>
-              <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript">
-              <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
-              <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">
-              <label for="static_site_with_javascript">Static Site With Javascript Animations - $850 + $125 per page</label><br>
-              <input type="radio" id="dynamic_site_no_javascript" name="project_type" value="Dynamic - No Javascript">
-              <label for="dynamic_site_no_javascript">Dynamic Site - No Javascript Animations - $1000 + $150 per page</label><br>
-              <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
-              <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br><br>
-              <label for="notes">Notes/Special Instructions:</label><br>
-              <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
-              <input type="submit" formaction="#about" formmethod="POST" value="Order Website"><br>
-            </form>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
-          <div id="contact">
-            <h2>General Contact Form</h2>
-            <form method="POST"></form>
-            <label for="name">Full Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Full Name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
-            <label for="message">Subject:</label><br>
-            <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
-            <label for="message">Message:</label><br>
-            <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-            <input type="submit" formaction="#contact" formmethod="POST" value="Contact Socially Radical Web Design">
-          </div>
-        </div>
+      <div class="container">
+        <?php
+          require("PHP/database.php");
+          $name = $_POST['name'];
+          $email = $_POST['email'];
+          $address = $_POST['address'];
+          $city = $_POST['city'];
+          $region = $_POST['region'];
+          $zip = $_POST['zip'];
+          $country = $_POST['country'];
+          $project = $_POST['project_type'];
+          $notes = $_POST['notes'];
+
+          $name_input = set_string($db_connect, $name);
+          $email_input = set_string($db_connect, $email);
+          $address_input = set_string($db_connect, $address);
+          $city_input = set_string($db_connect, $city);
+          $region_input = set_string($db_connect, $region);
+          $zip_input = set_string($db_connect, $zip);
+          $country_input = set_string($db_connect, $country);
+          $notes_input = set_string($db_connect, $notes);
+
+          $s = "INSERT INTO projects(Name,Email,Address,City,Region,Zip,Country,Project,Notes       ,PoliceCheck) VALUES (?,?,?,?,?,?,?,?,?)";
+
+          $projects_input = mysqli_prepare($db_connect, $s);
+
+          mysqli_stmt_bind_param(
+              $volunteer_list_input,
+              'sssssss',
+              $name_input,
+              $email_input,
+              $address_input,
+              $city_input,
+              $region_input,
+              $zip_input,
+              $country_input,
+              $project,
+              $notes_input
+          );
+
+          $input = mysqli_stmt_execute($projects_input);
+          if($input) {
+          echo "<h1>Thank you for making the request! Socially Radical Web Design will contact you within 24-48 hours about your order. To return to the main page, click <a href='index.php'>here</a>.</h1>";
+          }
+          else {
+              echo "<h1>500. Internal error. Our apologies. Please try again later.</h1>";
+          }
+        ?>
+      </div>
     </main>
     <br>
     <br>

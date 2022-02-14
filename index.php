@@ -48,7 +48,7 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <img src="ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br>
+                    <img src="ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br><br>
                     <p><strong>Christian Shingiro</strong> is a recent graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College.
                       He already has a few projects under his belt, and is the web master and host of a radio show called <a href="https://sociallyradicalguitarist.com">
                       The Socially Radical Guitarist</a>. His specialties are UI/UX design, Wordpress, Bootstrap, PHP, MySQL, and general Full Stack web development on Linux.
@@ -100,42 +100,42 @@
                           <img src="Images/Showcase1.png" class="d-block w-100" alt="First Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Wordpress Individual Project</h5>
-                            <p><a class="link-light" href="https://dev-shingiroportfolio.pantheonsite.io/">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://dev-shingiroportfolio.pantheonsite.io/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase2.png" class="d-block w-100" alt="Second Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Socially Radical Guitarist Pilot Blog</h5>
-                            <p><a class="link-light" href="https://live-guitarenthusiasm.pantheonsite.io/">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://live-guitarenthusiasm.pantheonsite.io/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase3.png" class="d-block w-100" alt="Third Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Socially Radical Guitarist Pilot Blog #2</h5>
-                            <p><a class="link-light" href="https://guitarenthusiasm.wordpress.com/">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://guitarenthusiasm.wordpress.com/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase4.png" class="d-block w-100" alt="Fourth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Collaborative Wordpress Project</h5>
-                            <p><a class="link-light" href="https://dev-chrisolysimhotel.pantheonsite.io/">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://dev-chrisolysimhotel.pantheonsite.io/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase5.png" class="d-block w-100" alt="Fifth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Collaborative Coffee Shop Project</h5>
-                            <p><a class="link-light" href="https://cshingiro.github.io/Team6Project/">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://cshingiro.github.io/Team6Project/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="Images/Showcase6.png" class="d-block w-100" alt="Sixth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>The Socially Radical Guitarist Website</h5>
-                            <p><a class="link-light" href="https://sociallyradicalguitarist.com">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://sociallyradicalguitarist.com" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                       </div>
@@ -173,10 +173,10 @@
               <input type="text" id="address" name="address" placeholder="123 Example St" required><br>
               <label for="city">City:</label><br>
               <input type="text" id="city" name="city" placeholder="Example: Timbuktu" required><br>
-              <label for="province-state-or-territory">Province, State, or Territory:</label><br>
-              <input type="text" id="province-state-or-territory" name="province-state-or-territory" placeholder="Example: Xinjiang" required><br>
-              <label for="zip-or-postal-code">Zip/Postal Code:</label><br>
-              <input type="text" id="zip-or-postal-code" name="zip-or-postal-code" placeholder="Example: 12345, A1A 1A1, or 123456"><br>
+              <label for="region">Province, State, or Territory:</label><br>
+              <input type="text" id="region" name="region" placeholder="Example: Xinjiang" required><br>
+              <label for="zip">Zip/Postal Code:</label><br>
+              <input type="text" id="zip" name="zip" placeholder="Example: 12345, A1A 1A1, or 123456"><br>
               <label for="country">Country:</label><br>
               <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br><br>
               <h3>Project Type</h3><br>
@@ -192,7 +192,7 @@
               <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br><br>
               <label for="notes">Notes/Special Instructions:</label><br>
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
-              <input type="submit" formaction="#about" formmethod="POST" value="Order Website"><br>
+              <input type="submit" formaction="request.php" name="site_request" formmethod="POST" value="Order Website"><br>
             </form>
           </div>
         </div>
@@ -202,16 +202,43 @@
         <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
           <div id="contact">
             <h2>General Contact Form</h2>
-            <form method="POST"></form>
-            <label for="name">Full Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Full Name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
-            <label for="message">Subject:</label><br>
-            <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
-            <label for="message">Message:</label><br>
-            <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-            <input type="submit" formaction="#contact" formmethod="POST" value="Contact Socially Radical Web Design">
+              <form id="contact" name="contact" action="#contact" method="POST">
+              <label for="name">Full Name:</label><br>
+              <input type="text" id="name" name="name" placeholder="Full Name" required><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
+              <label for="subject">Subject:</label><br>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
+              <label for="message">Message:</label><br>
+              <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
+            </form><br>
+            <script>
+              function onSubmit(token) {
+                document.getElementById("contact").submit();
+              }
+            </script>
+            <button class="g-recaptcha" data-sitekey="6LdGcHgeAAAAAG8ELsM8cjpIipmCHB3-NLrWMjUv" data-callback="onSubmit" data type="submit" form="contact"  value="Contact Socially Radical Web Design">Contact Socially Radical Web Design</button>
+            <?php
+              $to = 'cshingiro@sociallyradicalwebdesign.com';
+              $subject = 'General Contact Message';
+              if isset($_POST['contact']) {
+                $customername = $_POST['name'];
+                $customeremail = $_POST['email'];
+                $customersubject = $_POST['subject'];
+                $customermessage = $_POST['message'];
+                $contact_name = "Name: ".$customername;
+                $contact_subject = "Subject: ".$customersubject;
+                $contact_message = "Message: ".$customermessage;
+                $message = $contact_name . "\r" .$contact_subject."\r". $contact_message;
+                $headers = "From: ".$customeremail;
+                mail($to,$subject,$message,$headers);
+                $customername = '';
+                $customeremail = '';
+                $customersubject = '';
+                $custonermessage = '';
+                echo "<br><br><p class='text-primary'>Your message was received. Socially Radical Web Design will return your message soon.</p>";
+              }
+            ?>
           </div>
         </div>
     </main>
@@ -227,6 +254,7 @@
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
       </div>
     </footer>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

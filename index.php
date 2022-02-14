@@ -231,7 +231,7 @@
                 $customeremail = '';
                 $customersubject = '';
                 $custonermessage = '';
-                echo "<br><br><p class='text-primary'>Your message was received. Socially Radical Web Design will return your message soon.</p>";
+                echo "<br><br><p class='text-danger'>Your message was received. Socially Radical Web Design will return your message soon.</p>";
               }
             ?>
           </div>

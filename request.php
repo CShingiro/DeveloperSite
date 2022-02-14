@@ -75,7 +75,15 @@
 
           $input = mysqli_stmt_execute($projects_input);
           if($input) {
-          echo "<h1 class='fst-italic'>Thank you for making the request! Socially Radical Web Design will contact you within 24-48 hours about your order. To return to the main page, click <a href='index.php'>here</a>.</h1>";
+            $to = 'cshingiro@sociallyradicalwebdesign.com';
+            $subject = 'Website Order';
+            $order_name = "Name: ".$name;
+            $order_project = "Project: ".$project;
+            $order_notes = "Notes: ".$notes;
+            $message = $order_name."\r".$order_project."\r".$order_notes;
+            $headers = "From: ".$email;
+            mail($to,$subject,$message,$headers);
+            echo "<h1 class='fst-italic'>Thank you for making the request! Socially Radical Web Design will contact you within 24-48 hours about your order. To return to the main page, click <a href='index.php'>here</a>.</h1>";
           }
           else {
               echo "<h1 class='fst-italic'>500. Internal error. Our apologies. Please try again later.</h1>";

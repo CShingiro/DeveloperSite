@@ -60,8 +60,8 @@
           $projects_input = mysqli_prepare($db_connect, $s);
 
           mysqli_stmt_bind_param(
-              $volunteer_list_input,
-              'sssssss',
+              $projects_input,
+              'sssssssss',
               $name_input,
               $email_input,
               $address_input,

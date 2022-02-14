@@ -212,13 +212,31 @@
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
             </form><br>
-            <script>
-              function onSubmit(token) {
-                document.getElementById("contact").submit();
+            <button form="contact"  value="Contact Socially Radical Web Design">Contact Socially Radical Web Design</button>
+            <?php
+              if isset($_POST['contact']) {
+                $to = 'cshingiro@sociallyradicalwebdesign.com';
+                $subject = 'General Contact Message';
+                $customername = $_POST['name'];
+                $customeremail = $_POST['email'];
+                $customersubject = $_POST['subject'];
+                $customermessage = $_POST['message'];
+                $contact_name = "Name: ". $customername;
+                $contact_subject = "Subject: ".$customersubject;
+                $contact_message = "Message: ".$customermessage;
+                $message = $contact_name . "\r" .$contact_subject."\r". $contact_message;
+                $headers = "From: ".$customeremail;
+                mail($to,$subject,$message,$headers);
+                $customername = '';
+                $customeremail = '';
+                $customersubject = '';
+                $custonermessage = '';
+                echo "<br><br><p class='text-primary'>Your message was received. Socially Radical Web Design will return your message soon.</p>";
               }
-            </script>
-            <button class="g-recaptcha" data-sitekey="6LdGcHgeAAAAAG8ELsM8cjpIipmCHB3-NLrWMjUv" data-callback="onSubmit" data type="submit" form="contact"  value="Contact Socially Radical Web Design">Contact Socially Radical Web Design</button>
-            
+              else {
+                return;
+              }
+            ?>
           </div>
         </div>
     </main>
@@ -230,11 +248,10 @@
         <a href="https://linkedin.com/in/sociallyradicalwebdesign.com"><img src="Images/linkedin.svg" width="60px" height="60px" alt="LinkedIn Icon"></a>
         <a href="#"><img src="Images/facebook.svg" width="60px" height="60px" alt="Facebook Icon"></a>
         <a href="#"><img src="Images/instagram.svg" width="60px" height="60px" alt="Instagram Icon"></a>
-        <a href="#"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a>
+        <a href="#"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a><br>
         <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
       </div>
     </footer>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

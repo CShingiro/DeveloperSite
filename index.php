@@ -202,7 +202,7 @@
         <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
           <div id="contact">
             <h2>General Contact Form</h2>
-              <form id="contact" name="contact" action="#contact" method="POST">
+              <form>
               <label for="name">Full Name:</label><br>
               <input type="text" id="name" name="name" placeholder="Full Name" required><br>
               <label for="email">Email:</label><br>
@@ -211,7 +211,7 @@
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-              <input type="submit" value="Contact The Socially Radical Guitarist">
+              <input type="submit" formaction="#contact" formmethod="POST" value="Contact The Socially Radical Guitarist">
             </form><br>
             <?php
               if (isset($_POST['contact'])) {

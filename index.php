@@ -48,7 +48,7 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <img src="ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br><br>
+                    <img src="Images/ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br><br>
                     <p><strong>Christian Shingiro</strong> is a recent graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College.
                       He already has a few projects under his belt, and is the web master and host of a radio show called <a href="https://sociallyradicalguitarist.com">
                       The Socially Radical Guitarist</a>. His specialties are UI/UX design, Wordpress, Bootstrap, PHP, MySQL, and general Full Stack web development on Linux.

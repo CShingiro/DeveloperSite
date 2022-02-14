@@ -212,6 +212,12 @@
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
             </form><br>
+            <script>
+              function onSubmit(token) {
+                document.getElementById("contact").submit();
+              }
+            </script>
+            <button class="g-recaptcha" data-sitekey="6LdGcHgeAAAAAG8ELsM8cjpIipmCHB3-NLrWMjUv" data-callback="onSubmit" data type="submit" form="contact"  value="Contact Socially Radical Web Design">Contact Socially Radical Web Design</button>
             
           </div>
         </div>

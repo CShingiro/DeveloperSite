@@ -219,14 +219,14 @@
             </script>
             <button class="g-recaptcha" data-sitekey="6LdGcHgeAAAAAG8ELsM8cjpIipmCHB3-NLrWMjUv" data-callback="onSubmit" data type="submit" form="contact"  value="Contact Socially Radical Web Design">Contact Socially Radical Web Design</button>
             <?php
-              $to = 'cshingiro@sociallyradicalwebdesign.com';
-              $subject = 'General Contact Message';
               if isset($_POST['contact']) {
+                $to = 'cshingiro@sociallyradicalwebdesign.com';
+                $subject = 'General Contact Message';
                 $customername = $_POST['name'];
                 $customeremail = $_POST['email'];
                 $customersubject = $_POST['subject'];
                 $customermessage = $_POST['message'];
-                $contact_name = "Name: ".$customername;
+                $contact_name = "Name: ". $customername;
                 $contact_subject = "Subject: ".$customersubject;
                 $contact_message = "Message: ".$customermessage;
                 $message = $contact_name . "\r" .$contact_subject."\r". $contact_message;
@@ -237,6 +237,9 @@
                 $customersubject = '';
                 $custonermessage = '';
                 echo "<br><br><p class='text-primary'>Your message was received. Socially Radical Web Design will return your message soon.</p>";
+              }
+              else {
+                return;
               }
             ?>
           </div>

@@ -211,10 +211,10 @@
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
+              <input type="submit" value="Contact The Socially Radical Guitarist">
             </form><br>
-            <button form="contact"  value="Contact Socially Radical Web Design">Contact Socially Radical Web Design</button>
             <?php
-              if isset($_POST['contact']) {
+              if (isset($_POST['contact']) {
                 $to = 'cshingiro@sociallyradicalwebdesign.com';
                 $subject = 'General Contact Message';
                 $customername = $_POST['name'];
@@ -232,9 +232,6 @@
                 $customersubject = '';
                 $custonermessage = '';
                 echo "<br><br><p class='text-primary'>Your message was received. Socially Radical Web Design will return your message soon.</p>";
-              }
-              else {
-                return;
               }
             ?>
           </div>

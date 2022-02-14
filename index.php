@@ -214,7 +214,7 @@
               <input type="submit" value="Contact The Socially Radical Guitarist">
             </form><br>
             <?php
-              if (isset($_POST['contact']) {
+              if (isset($_POST['contact'])) {
                 $to = 'cshingiro@sociallyradicalwebdesign.com';
                 $subject = 'General Contact Message';
                 $customername = $_POST['name'];

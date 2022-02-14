@@ -49,6 +49,7 @@
           $name_input = set_string($db_connect, $name);
           $email_input = set_string($db_connect, $email);
           $address_input = set_string($db_connect, $address);
+          $city_input = set_string($db_connect, $city);
           $region_input = set_string($db_connect, $region);
           $zip_input = set_string($db_connect, $zip);
           $country_input = set_string($db_connect, $country);
@@ -64,7 +65,7 @@
               $name_input,
               $email_input,
               $address_input,
-              $city,
+              $city_input,
               $region_input,
               $zip_input,
               $country_input,

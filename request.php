@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php">Back to Home Page</a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php"><button type="button" class="btn btn-outline-dark">Back to Home Page</button></a></li>
               </ul>
             </div>
           </div>

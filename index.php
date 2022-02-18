@@ -138,6 +138,13 @@
                             <p><a class="link-light" href="https://sociallyradicalguitarist.com" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase7.png" class="d-block w-100" alt="Seventh Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>Backend for the African and Caribbean Inclusion Centre</h5>
+                            <p><a class="link-light" href="https://www.aciccanada.ca" target="_blank">Link to Site Here</a></p>
+                          </div>
+                        </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

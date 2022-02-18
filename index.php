@@ -236,6 +236,10 @@
             ?>
           </div>
         </div>
+        <div class="text-center">
+          <p class="fst-italic">Click the image below if you're a developer and are interested in using the same hosting at a discounted rate.</p><br>
+          <a href="https://nhtrx.com/?a=89&oc=2&c=4&s1="><img src="Images/NameHeroLink.png" width="60px" height="60px"></a>
+        </div>
     </main>
     <br>
     <br>

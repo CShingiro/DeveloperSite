@@ -188,8 +188,8 @@
               <label for="country">Country:</label><br>
               <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br><br>
               <h3>Project Type</h3><br>
-              <input type="radio" id="wordpress" name="project_type" value="Wordpress" checked>
-              <label for="wordpress">Wordpress Site - $500 + $50 per page</label><br>
+              <input type="radio" id="wordpress" name="project_type" value="Wordpress/Joomla/CMS" checked>
+              <label for="wordpress">Wordpress/Joomla/CMS Site - $500 + $50 per page</label><br>
               <input type="radio" id="static_site_no_javascript" name="project_type" value="Static - No Javascript">
               <label for="static_site_no_javascript">Static Site - No Javascript Animations - $700 + $100 per page</label><br>
               <input type="radio" id="static_site_with_javascript" name="project_type" value="Static + Javascript">

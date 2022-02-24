@@ -25,7 +25,7 @@
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#about"><button type="button" class="btn btn-outline-dark">À Propos</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#request"><button type="button" class="btn btn-outline-dark">Demande De Site</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#contact"><button type="button" class="btn btn-outline-dark">Contact</button></a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-outline-dark"><img src="Images/united-kingdom.png" width="20px" height="20px">Anglais</button></a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php"><button type="button" class="btn btn-outline-dark"><img src="Images/united-kingdom.png" width="20px" height="20px">Anglais</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link disabled" aria-current="page" href="frindex.php"><button type="button" class="btn btn-outline-dark"><img src="Images/france.png" width="20px" height="20px">Français</button></a></li>
               </ul>
             </div>

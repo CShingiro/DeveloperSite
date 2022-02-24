@@ -25,6 +25,8 @@
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#about"><button type="button" class="btn btn-outline-dark">About</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#request"><button type="button" class="btn btn-outline-dark">Site Request</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#contact"><button type="button" class="btn btn-outline-dark">Contact</button></a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link disabled" aria-current="page" href="#"><button type="button" class="btn btn-outline-dark"><img src="Images/united-kingdom.png" width="20px" height="20px">English</button></a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="frindex.png"><button type="button" class="btn btn-outline-dark"><img src="Images/france.png" width="20px" height="20px">French</button></a></li>
               </ul>
             </div>
           </div>
@@ -261,6 +263,7 @@
         <a href="https://twitter.com/web_socially"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a><br>
       </div><br>
       <p class="text-center">&#169; - 2022 - Socially Radical Web Design</p>
+      <p class="text-center"><a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Flag icons created by Freepik - Flaticon</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

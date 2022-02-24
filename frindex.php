@@ -221,7 +221,7 @@
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-              <input type="submit" formaction="#contact" formmethod="POST" name="contact" value="Contacter Le Conception Des Sites Web Socialement Radicale">
+              <input type="submit" formaction="#contact" formmethod="POST" name="contact" value="Contacter Le Conception Web Socialement Radicale">
             </form><br>
             <?php
               if (isset($_POST['contact'])) {

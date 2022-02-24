@@ -187,7 +187,7 @@
               <input type="text" id="region" name="region" placeholder="Example: Xinjiang" required><br>
               <label for="zip">Zip/Code Postal:</label><br>
               <input type="text" id="zip" name="zip" placeholder="Example: 12345, A1A 1A1, or 123456"><br>
-              <label for="country">Paix:</label><br>
+              <label for="country">Pays:</label><br>
               <input type="text" id="country" name="country" placeholder="Example: Cuba" required><br><br>
               <h3>Type De Project</h3><br>
               <input type="radio" id="wordpress" name="project_type" value="Wordpress/Joomla/CMS" checked>

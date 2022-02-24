@@ -82,9 +82,10 @@
             $order_city = "Ville: ".$city;
             $order_region = "Région: ".$region;
             $order_zip = "Zip: ".$zip;
+            $order_country = "Pays: ".$country;
             $order_project = "Projet: ".$project;
             $order_notes = "Remarques: ".$notes;
-            $message = $order_name."\r".$order_address."\r".$order_city."\r".$order_region."\r".$order_zip."\r".$order_project."\r".$order_notes;
+            $message = $order_name."\r".$order_address."\r".$order_city."\r".$order_region."\r".$order_zip."\r".$order_country."\r".$order_project."\r".$order_notes;
             $headers = "From: ".$email;
             mail($to,$subject,$message,$headers);
             echo "<h1 class='fst-italic'>Merci d'avoir fait la demande ! Socially Radical Web Design vous contactera dans les 24 à 48 heures au sujet de votre demande. Pour retourner à la page d'accueil, cliquez <a href='index.php'>ici</a>.</h1>";

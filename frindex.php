@@ -176,9 +176,9 @@
             <form>
               <h3>Renseignements Personnels</h3><br>
               <label for="name">Nom et Prénom:</label><br>
-              <input type="text" id="name" name="name" placeholder="Full Name" required><br>
+              <input type="text" id="name" name="name" placeholder="Nom et Prénom" required><br>
               <label for="email">E-mail:</label><br>
-              <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
+              <input type="email" id="email" name="email" placeholder="nom@example.com" required><br>
               <label for="address">Adresse:</label><br>
               <input type="text" id="address" name="address" placeholder="123 Example St" required><br>
               <label for="city">Ville:</label><br>
@@ -201,8 +201,8 @@
               <input type="radio" id="dynamic_site_with_javascript" name="project_type" value="Dynamic + Javascript">
               <label for="dynamic_site_with_javascript">Site Dynamic Avec des Animations Javascript - $1200 +$250 par page</label><br><br>
               <label for="notes">Remarques/Instructions Speciales:</label><br>
-              <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
-              <input type="submit" formaction="frrequest.php" name="site_request" formmethod="POST" value="Order Website"><br>
+              <textarea style="height: 300px" class="form-control" id="notes" placeholder="Remarques/Instructions Speciales" name="notes" required></textarea><br>
+              <input type="submit" formaction="frrequest.php" name="site_request" formmethod="POST" value="Demande Du Site"><br>
             </form>
           </div>
         </div>
@@ -221,7 +221,7 @@
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-              <input type="submit" formaction="#contact" formmethod="POST" name="contact" value="Contact The Socially Radical Guitarist">
+              <input type="submit" formaction="#contact" formmethod="POST" name="contact" value="Contacter Le Conception Des Sites Web Socialement Radicale">
             </form><br>
             <?php
               if (isset($_POST['contact'])) {

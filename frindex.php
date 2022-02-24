@@ -217,7 +217,7 @@
               <input type="text" id="name" name="name" placeholder="Full Name" required><br>
               <label for="email">Email:</label><br>
               <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
-              <label for="subject">Subject:</label><br>
+              <label for="subject">Sujet:</label><br>
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>

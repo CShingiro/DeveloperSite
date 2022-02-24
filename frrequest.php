@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" href="Images/SRWBLogo.png" width="30" height="30" type="image/png">
     <link rel="stylesheet" href="webdesign.css" type="text/css">
-    <title>Request Recognized</title>
+    <title>Demande Reconnue</title>
   </head>
   <body>
     <header>
@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php"><button type="button" class="btn btn-outline-dark">Back to Home Page</button></a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php"><button type="button" class="btn btn-outline-dark">Retour À La Page D'Accueil</button></a></li>
               </ul>
             </div>
           </div>
@@ -32,7 +32,7 @@
     <br>
     <br>
     <main>
-      <p class="text-center fst-italic">Socially Radical Web Design at a Socially Reasonable Price</p><br><br>
+      <p class="text-center fst-italic">Conception des Sites Radicales à un tarif Socialement Raisonnable</p><br><br>
       <div class="container">
         <?php
           require("PHP/database.php");
@@ -76,26 +76,26 @@
           $input = mysqli_stmt_execute($projects_input);
           if($input) {
             $to = 'cshingiro@sociallyradicalwebdesign.com';
-            $subject = 'Website Order';
-            $order_name = "Name: ".$name;
-            $order_address = "Address: ".$address;
-            $order_city = "City: ".$city;
-            $order_region = "Region: ".$region;
+            $subject = 'Demande De Site Web';
+            $order_name = "Nom: ".$name;
+            $order_address = "Adresse: ".$address;
+            $order_city = "Ville: ".$city;
+            $order_region = "Région: ".$region;
             $order_zip = "Zip: ".$zip;
-            $order_project = "Project: ".$project;
-            $order_notes = "Notes: ".$notes;
+            $order_project = "Projet: ".$project;
+            $order_notes = "Remarques: ".$notes;
             $message = $order_name."\r".$order_address."\r".$order_city."\r".$order_region."\r".$order_zip."\r".$order_project."\r".$order_notes;
             $headers = "From: ".$email;
             mail($to,$subject,$message,$headers);
-            echo "<h1 class='fst-italic'>Thank you for making the request! Socially Radical Web Design will contact you within 24-48 hours about your order. To return to the main page, click <a href='index.php'>here</a>.</h1>";
+            echo "<h1 class='fst-italic'>Merci d'avoir fait la demande ! Socially Radical Web Design vous contactera dans les 24 à 48 heures au sujet de votre demande. Pour retourner à la page d'accueil, cliquez <a href='index.php'>ici</a>.</h1>";
           }
           else {
-              echo "<h1 class='fst-italic'>500. Internal error. Our apologies. Please try again later.</h1>";
+              echo "<h1 class='fst-italic'>500. Erreur interne. Nos excuses. Veuillez réessayer plus tard.</h1>";
           }
         ?>
       </div>
       <div class="text-center">
-        <p class="fst-italic">Click the image below if you're a developer and are interested in using the same hosting at a discounted rate.</p><br>
+        <p class="fst-italic">Cliquez sur l'image ci-dessous si vous êtes un développeur et souhaitez utiliser le même hébergement à un tarif réduit.</p><br>
         <a href="https://nhtrx.com/?a=89&oc=2&c=4&s1="><img src="Images/NameHeroLink.png" width="60px" height="60px"></a>
       </div>
     </main>
@@ -111,7 +111,7 @@
         <a href="https://twitter.com/web_socially"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a><br>
       </div><br>
       <p class="text-center">&#169; - 2022 - Socially Radical Web Design</p><br>
-      <p class="text-center"><a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Flag icons created by Freepik - Flaticon</a></p>
+      <p class="text-center"><a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Icônes de drapeau créées par Freepik - Flaticon</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

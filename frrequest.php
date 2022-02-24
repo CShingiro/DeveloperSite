@@ -110,7 +110,7 @@
         <a href="https://www.github.com/CShingiro"><img src="Images/github.svg" width="60px" height="60px" alt="Github Icon"></a>
         <a href="https://twitter.com/web_socially"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a><br>
       </div><br>
-      <p class="text-center">&#169; - 2022 - Socially Radical Web Design</p><br>
+      <p class="text-center">&#169; - 2022 - Conception Web Socialement Radicale</p><br>
       <p class="text-center"><a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Icônes de drapeau créées par Freepik - Flaticon</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

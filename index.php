@@ -76,7 +76,7 @@
                     <iframe src="Images/ProofofProgramCompletion.pdf#toolbar=0" width="100%" height="500px"></iframe><br>
                     <br>
                     <h3 class="text-center">Certificates</h3><br>
-                    <p>Coming Soon! After convocation!</p>
+                    <iframe src="Images/ConestogaCertificate.pdf#toolbar=0" width ="100%" height="500px"></iframe><br>
                   </div>
                 </div>
               </div>

@@ -69,14 +69,22 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <h3 class="text-center">Awards</h3><br>
-                    <object data="Images/AwardLetter.pdf#toolbar=0" type="application/pdf" width="100%" height="500px"></object><br>
+                    <object data="Images/AwardLetter.pdf#toolbar=0" type="application/pdf" width="100%" height="500px">
+                      <div>Non compatible PDF viewer in browser.</div>
+                    </object><br>
                     <br>
                     <h3 class="text-center">Education</h3><br>
-                    <object data="Images/ConestogaOfficialTranscript.pdf#toolbar=0" type="application/pdf" width="100%" height="500px"></object><br><br>
-                    <object data="Images/ProofofProgramCompletion.pdf#toolbar=0" type="application/pdf" width="100%" height="500px"></object><br>
+                    <object data="Images/ConestogaOfficialTranscript.pdf#toolbar=0" type="application/pdf" width="100%" height="500px">
+                      <div>Non compatible PDF viewer in browser.</div>
+                    </object><br><br>
+                    <object data="Images/ProofofProgramCompletion.pdf#toolbar=0" type="application/pdf" width="100%" height="500px">
+                      <div>Non compatible PDF viewer in browser.</div>
+                    </object><br>
                     <br>
                     <h3 class="text-center">Certificates</h3><br>
-                    <object data="Images/ConestogaCertificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px"></object><br>
+                    <object data="Images/ConestogaCertificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>Non compatible PDF viewer in browser.</div>
+                    </object><br>
                   </div>
                 </div>
               </div>

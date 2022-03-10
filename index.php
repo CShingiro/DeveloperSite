@@ -76,7 +76,7 @@
                     <object data="Images/ProofofProgramCompletion.pdf#toolbar=0" width="100%" height="500px"></object><br>
                     <br>
                     <h3 class="text-center">Certificates</h3><br>
-                    <object src="Images/ConestogaCertificate.pdf#toolbar=0" width ="100%" height="500px"></object><br>
+                    <object data="Images/ConestogaCertificate.pdf#toolbar=0" width ="100%" height="500px"></object><br>
                   </div>
                 </div>
               </div>

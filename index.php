@@ -69,14 +69,14 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <h3 class="text-center">Awards</h3><br>
-                    <iframe src="Images/AwardLetter.pdf#toolbar=0" width="100%" height="500px"></iframe><br>
+                    <object data="Images/AwardLetter.pdf#toolbar=0" width="100%" height="500px"></object><br>
                     <br>
                     <h3 class="text-center">Education</h3><br>
-                    <iframe src="Images/ConestogaOfficialTranscript.pdf#toolbar=0" width="100%" height="500px"></iframe><br><br>
-                    <iframe src="Images/ProofofProgramCompletion.pdf#toolbar=0" width="100%" height="500px"></iframe><br>
+                    <object data="Images/ConestogaOfficialTranscript.pdf#toolbar=0" width="100%" height="500px"></object><br><br>
+                    <object data="Images/ProofofProgramCompletion.pdf#toolbar=0" width="100%" height="500px"></object><br>
                     <br>
                     <h3 class="text-center">Certificates</h3><br>
-                    <iframe src="Images/ConestogaCertificate.pdf#toolbar=0" width ="100%" height="500px"></iframe><br>
+                    <object src="Images/ConestogaCertificate.pdf#toolbar=0" width ="100%" height="500px"></object><br>
                   </div>
                 </div>
               </div>

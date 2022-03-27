@@ -70,21 +70,25 @@
                   <div class="accordion-body">
                     <h3 class="text-center">Récompenses</h3><br>
                     <object data="Images/AwardLetter.pdf#toolbar=0" width="100%" type="application/pdf" height="500px">
-                      <div>Non compatible PDF viewer in browser.</div>
+                      <div>Pas disponible écran du PDF en browser.</div>
                     </object><br>
                     <br>
                     <h3 class="text-center">Éducation</h3><br>
                     <object data="Images/ConestogaOfficialTranscript.pdf#toolbar=0" type="application/pdf" width="100%" height="500px">
-                      <div>Non compatible PDF viewer in browser.</div>
+                      <div>Pas disponible écran du PDF en browser.</div>
                     </object><br><br>
                     <object data="Images/ProofofProgramCompletion.pdf#toolbar=0" type="application/pdf" width="100%" height="500px">
-                      <div>Non compatible PDF viewer in browser.</div>
+                      <div>Pas disponible écran du PDF en browser.</div>
                     </object><br>
                     <br>
                     <h3 class="text-center">Certificates</h3><br>
                     <object data="Images/ConestogaCertificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
-                      <div>Non compatible PDF viewer in browser.</div>
-                    </object><br>
+                      <div>Pas disponible écran du PDF en browser.</div>
+                    </object><br><br>
+                    <object data="Images/CertificateCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>Pas disponible écran du PDF en browser.</div>
+                    </object><br><br>
+                    <img src="Images/FreeCodeCamdCertificate.png" width=100% height="500px"><br>
                   </div>
                 </div>
               </div>

@@ -88,7 +88,7 @@
                     <object data="Images/CertificateCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>Non compatible PDF viewer in browser.</div>
                     </object><br><br>
-                    <img src="Images/FreeCodeCamdCertificate.png" width=100% height="500px"><br>
+                    <img src="Images/FreeCodeCampCertificate.png" width=100% height="500px"><br>
                   </div>
                 </div>
               </div>

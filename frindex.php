@@ -160,6 +160,13 @@
                             <p><a class="link-light" href="https://www.aciccanada.ca" target="_blank">Lien Vers Le Site Ici</a></p>
                           </div>
                         </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase8.png" class="d-block w-100" alt="Eighth Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>Fonctionnalité de commerce électronique pour Maestro's Pizza Waterloo</h5>
+                            <p><a class="link-light" href="https://maestrospizzawaterloo.com/" target="_blank">Lien Vers Le Site Ici</a></p>
+                          </div>
+                        </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

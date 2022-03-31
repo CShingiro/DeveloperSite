@@ -109,6 +109,7 @@
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -158,6 +159,13 @@
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Backend for the African and Caribbean Inclusion Centre</h5>
                             <p><a class="link-light" href="https://www.aciccanada.ca" target="_blank">Link to Site Here</a></p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase8.png" class="d-block w-100" alt="Eighth Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>E-Commerce Functionality for Maestro's Pizza Waterloo</h5>
+                            <p><a class="link-light" href="https://maestrospizzawaterloo.com/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                       </div>

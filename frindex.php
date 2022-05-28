@@ -110,6 +110,7 @@
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -166,6 +167,14 @@
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Fonctionnalité de commerce électronique pour Maestro's Pizza Waterloo</h5>
                             <p><a class="link-light" href="https://maestrospizzawaterloo.com/" target="_blank">Lien Vers Le Site Ici</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="Images/Showcase8.png" class="d-block w-100" alt="Ninth Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>Fonctionnalité de commerce électronique pour Maestro's Pizza Waterloo</h5>
+                            <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Lien Vers Le Site Ici</a></p>
                           </div>
                         </div>
                       </div>

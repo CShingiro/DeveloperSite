@@ -170,7 +170,7 @@
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase8.png" class="d-block w-100" alt="Ninth Showcase Site">
+                          <img src="Images/Showcase9.png" class="d-block w-100" alt="Ninth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Animated Web Site for Rade's Restaurant</h5>
                             <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Link to Site Here</a></p>

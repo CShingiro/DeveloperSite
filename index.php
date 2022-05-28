@@ -169,8 +169,7 @@
                             <p><a class="link-light" href="https://maestrospizzawaterloo.com/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
+                        <div class="carousel-item">
                           <img src="Images/Showcase8.png" class="d-block w-100" alt="Ninth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Animated Web Site for Rade's Restaurant</h5>

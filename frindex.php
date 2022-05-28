@@ -173,7 +173,7 @@
                       <div class="carousel-item">
                           <img src="Images/Showcase8.png" class="d-block w-100" alt="Ninth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-                            <h5>Fonctionnalité de commerce électronique pour Maestro's Pizza Waterloo</h5>
+                            <h5>Site Web animé pour Rade's Restaurant</h5>
                             <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Lien Vers Le Site Ici</a></p>
                           </div>
                         </div>

@@ -200,7 +200,8 @@
             <h2>Request A Project</h2>
             <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span><br>
             <span class="text-danger">**Fees include cost of all required hosting services, including URL for one year, and MySQL space, if requested.**</span><br>
-            <span class="text-danger">**Prices are all in Canadian Dollars (CAD).**</span><br><br>
+            <span class="text-danger">**Prices are all in Canadian Dollars (CAD).**</span><br>
+            <span class="text-danger">**All customers get SEO and social media support for an extra $150, if so requested.**</span><br><br>
             <form>
               <h3>Personal Information</h3><br>
               <label for="name">Full Name:</label><br>

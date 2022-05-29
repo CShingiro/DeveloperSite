@@ -200,7 +200,8 @@
             <h2>Demander Un Projet</h2>
             <span class="text-danger">**Remarque : Veuillez prévoir de 4 à 6 semaines pour la livraison.**</span><br>
             <span class="text-danger">**Les frais incluent le coût de tous les services d'hébergement requis, y compris l'URL pendant un an et l'espace MySQL, si demandé.**</span><br>
-            <span class="text-danger">**Les prix sont tous en dollars canadiens (CAD).**</span><br><br>
+            <span class="text-danger">**Les prix sont tous en dollars canadiens (CAD).**</span><br>
+            <span class="text-danger">**Tous les clients bénéficient d'une assistance SEO et des médias sociaux pour un supplément de 150 $, si demandé.**</span><br><br>
             <form>
               <h3>Renseignements Personnels</h3><br>
               <label for="name">Nom et Prénom:</label><br>

@@ -53,7 +53,7 @@
                     <img src="Images/ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br><br>
                     <p><strong>Christian Shingiro</strong> est un jeune dîplomé du programme Fondamentaux des applications Internet et du développement web à Conestoga College.
                       Il a déjà quelques projets à son actif, et il est le webmestre et animateur d'une émission de radio intitulée <a href="https://sociallyradicalguitarist.com">
-                      The Socially Radical Guitarist</a>. Ses spécialités sont la conception UI/UX, Wordpress, Bootstrap, PHP, MySQL et le développement Web général Full Stack sur Linux.
+                      The Socially Radical Guitarist</a>. Ses spécialités sont la conception UI/UX, Wordpress, Bootstrap, Vuejs, PHP, MySQL et le développement Web général Full Stack sur Linux.
                       Il vise à être socialement radical, tout en fournissant des services Web à un tarif socialement raisonnable. Veuillez allez <a href="https://github.com/CShingiro">ici</a>
                       pour son GitHub public de projets complets et en cours.
                     </p>
@@ -83,6 +83,9 @@
                     <br>
                     <h3 class="text-center">Certificates</h3><br>
                     <object data="Images/ConestogaCertificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>Pas disponible écran du PDF en browser.</div>
+                    </object><br><br>
+                    <object data="Images/CertificateRubyCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>Pas disponible écran du PDF en browser.</div>
                     </object><br><br>
                     <object data="Images/CertificateCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">

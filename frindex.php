@@ -235,8 +235,8 @@
               <label for="notes">Remarques/Instructions Speciales:</label><br>
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Remarques/Instructions Speciales" name="notes" required></textarea><br>
               <input type="submit" formaction="frrequest.php" name="site_request" formmethod="POST" value="Demande Du Site"><br>
-            </form>
-            <h2>Achat Rapide: Application D'une Seule Page</h2>
+            </form><br><br>
+            <h2 class="text-center">Achat Rapide: Application D'une Seule Page</h2>
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">

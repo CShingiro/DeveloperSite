@@ -236,7 +236,7 @@
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
               <input type="submit" formaction="request.php" name="site_request" formmethod="POST" value="Order Website"><br>
             </form><br><br>
-            <h2>Quick Purchase: Single Page Application</h2>
+            <h2 class="text-center">Quick Purchase: Single Page Application</h2>
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">

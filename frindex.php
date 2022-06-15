@@ -236,6 +236,109 @@
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Remarques/Instructions Speciales" name="notes" required></textarea><br>
               <input type="submit" formaction="frrequest.php" name="site_request" formmethod="POST" value="Demande Du Site"><br>
             </form>
+            <h2>Achat Rapide: Application D'une Seule Page</h2>
+            <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div style="margin-bottom: 1.25rem;">
+          <p>Vuejs Application d'une seule page avec animations incluses. Obtenez un site complet rendu sur une page tout en ressemblant à un site de plusieurs pages. Par example: <a href="https://radesrestaurant.ca">radesrestaurant.ca</a></p>
+          <select id="item-options"><option value="Static: No user form or user updates" price="975">Statique : Pas de formulaire utilisateur ou de mises à jour utilisateur - 975 CAD</option><option value="Dynamic: User forms and updates" price="1450">Dynamique : Formulaires utilisateur et mises à jour - 1450 CAD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"></select>
+        </div>
+      <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=CAD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        var shipping = 0;
+        var itemOptions = document.querySelector("#smart-button-container #item-options");
+    var quantity = parseInt();
+    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+    if (!isNaN(quantity)) {
+      quantitySelect.style.visibility = "visible";
+    }
+    var orderDescription = 'Vuejs Application d\'une seule page avec animations incluses';
+    if(orderDescription === '') {
+      orderDescription = 'Item';
+    }
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'paypal',
+
+      },
+      createOrder: function(data, actions) {
+        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+        var tax = (13 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(13)/100));
+        if(quantitySelect.options.length > 0) {
+          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+        } else {
+          quantity = 1;
+        }
+
+        tax *= quantity;
+        tax = Math.round(tax * 100) / 100;
+        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+        priceTotal = Math.round(priceTotal * 100) / 100;
+        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+
+        return actions.order.create({
+          purchase_units: [{
+            description: orderDescription,
+            amount: {
+              currency_code: 'CAD',
+              value: priceTotal,
+              breakdown: {
+                item_total: {
+                  currency_code: 'CAD',
+                  value: itemTotalValue,
+                },
+                shipping: {
+                  currency_code: 'CAD',
+                  value: shipping,
+                },
+                tax_total: {
+                  currency_code: 'CAD',
+                  value: tax,
+                }
+              }
+            },
+            items: [{
+              name: selectedItemDescription,
+              unit_amount: {
+                currency_code: 'CAD',
+                value: selectedItemPrice,
+              },
+              quantity: quantity
+            }]
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
+
+          // Full available details
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Merci pour votre paiement!</h3>';
+
+          // Or go to another URL:  actions.redirect('thank_you.html');
+
+        });
+      },
+      onError: function(err) {
+        console.log(err);
+      },
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+    </script>
           </div>
         </div>
         <br>

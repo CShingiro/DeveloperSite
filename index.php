@@ -240,7 +240,7 @@
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Vuejs Single Page Application with animations Included. Get a full site rendered on one page while looking like a multi-page site. Example: <a href="https://radesrestaurant.ca">radesrestaurant.ca</a></p>
+          <p>Vuejs Single Page Application with animations Included. Get a full site rendered on one page while looking like a multi-page site. Example: <a href="https://radesrestaurant.ca" target="_blank">radesrestaurant.ca</a></p>
           <select id="item-options"><option value="Static: No user form or user updates" price="975">Static: No user form or user updates - 975 CAD</option><option value="Dynamic: User forms and updates" price="1450">Dynamic: User forms and updates - 1450 CAD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
@@ -383,7 +383,7 @@
         </div>
         <div class="text-center">
           <p class="fst-italic">Click the image below if you're a developer and are interested in using the same hosting at a discounted rate.</p><br>
-          <a href="https://nhtrx.com/?a=89&oc=2&c=4&s1="><img src="Images/NameHeroLink.png" width="60px" height="60px"></a>
+          <a href="https://nhtrx.com/?a=89&oc=2&c=4&s1=" target="_blank"><img src="Images/NameHeroLink.png" width="60px" height="60px"></a>
         </div>
     </main>
     <br>
@@ -391,14 +391,14 @@
     <br>
     <footer>
       <div class="container d-flex justify-content-center">
-        <a href="https://linkedin.com/in/sociallyradicalwebdesign"><img src="Images/linkedin.svg" width="60px" height="60px" alt="LinkedIn Icon"></a>
-        <a href="https://www.facebook.com/SociallyRadicalWebDesign"><img src="Images/facebook.svg" width="60px" height="60px" alt="Facebook Icon"></a>
-        <a href="https://www.instagram.com/sociallyradicalwebdesign/"><img src="Images/instagram.svg" width="60px" height="60px" alt="Instagram Icon"></a>
-        <a href="https://www.github.com/CShingiro"><img src="Images/github.svg" width="60px" height="60px" alt="Github Icon"></a>
-        <a href="https://twitter.com/web_socially"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a><br>
+        <a href="https://linkedin.com/in/sociallyradicalwebdesign" target="_blank"><img src="Images/linkedin.svg" width="60px" height="60px" alt="LinkedIn Icon"></a>
+        <a href="https://www.facebook.com/SociallyRadicalWebDesign" target="_blank"><img src="Images/facebook.svg" width="60px" height="60px" alt="Facebook Icon"></a>
+        <a href="https://www.instagram.com/sociallyradicalwebdesign/" target="_blank"><img src="Images/instagram.svg" width="60px" height="60px" alt="Instagram Icon"></a>
+        <a href="https://www.github.com/CShingiro" target="_blank"><img src="Images/github.svg" width="60px" height="60px" alt="Github Icon"></a>
+        <a href="https://twitter.com/web_socially" target="_blank"><img src="Images/twitter.svg" width="60px" height="60px" alt="Twitter Icon"></a><br>
       </div><br>
       <p class="text-center">&#169; - 2022 - Socially Radical Web Design</p><br>
-      <p class="text-center"><a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Flag icons created by Freepik - Flaticon</a></p>
+      <p class="text-center"><a href="https://www.flaticon.com/free-icons/flag" target="_blank" title="flag icons">Flag icons created by Freepik - Flaticon</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

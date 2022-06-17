@@ -240,14 +240,14 @@
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Single Page Web Application that looks like a multi-page website. Here's an example</p>
-          <select id="item-options"><option value="Static Site" price="975">Static Site - 975 USD</option><option value="Dynamic site" price="1450">Dynamic site - 1450 USD</option></select>
+          <p>Single Page Web Application that looks like a multi-page website. Example: <a href="https://radesrestaurant.ca">Rade's Restaurant</a></p>
+          <select id="item-options"><option value="Static Site" price="975">Static Site - 975 CAD</option><option value="Dynamic site" price="1450">Dynamic site - 1450 CAD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
       <div id="paypal-button-container"></div>
       </div>
     </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=CAD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
         var shipping = 0;
@@ -257,7 +257,7 @@
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'Single Page Web Application that looks like a multi-page website';
+    var orderDescription = 'Single Page Web Application that looks like a multi-page website.';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
@@ -289,19 +289,19 @@
           purchase_units: [{
             description: orderDescription,
             amount: {
-              currency_code: 'USD',
+              currency_code: 'CAD',
               value: priceTotal,
               breakdown: {
                 item_total: {
-                  currency_code: 'USD',
+                  currency_code: 'CAD',
                   value: itemTotalValue,
                 },
                 shipping: {
-                  currency_code: 'USD',
+                  currency_code: 'CAD',
                   value: shipping,
                 },
                 tax_total: {
-                  currency_code: 'USD',
+                  currency_code: 'CAD',
                   value: tax,
                 }
               }
@@ -309,7 +309,7 @@
             items: [{
               name: selectedItemDescription,
               unit_amount: {
-                currency_code: 'USD',
+                currency_code: 'CAD',
                 value: selectedItemPrice,
               },
               quantity: quantity

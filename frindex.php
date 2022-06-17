@@ -237,17 +237,17 @@
               <input type="submit" formaction="frrequest.php" name="site_request" formmethod="POST" value="Demande Du Site"><br>
             </form><br><br>
             <h2 class="text-center">Achat Rapide: Application D'une Seule Page</h2>
-          <div id="smart-button-container">
+            <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Application d'une seule page qui resemble a une site des plusieurs pages</p>
-          <select id="item-options"><option value="Static Site" price="975">Site Statique - 975 USD</option><option value="Dynamic site" price="1450">Site Dynamique - 1450 USD</option></select>
+          <p>Application d'une seule page qui resemble a une site des plusieurs pages.</p>
+          <select id="item-options"><option value="Static Site" price="975">Site Statique - 975 CAD</option><option value="Dynamic site" price="1450">Site Dynamique - 1450 CAD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
       <div id="paypal-button-container"></div>
       </div>
     </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=CAD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
         var shipping = 0;
@@ -257,7 +257,7 @@
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'Single Page Web Application that looks like a multi-page website';
+    var orderDescription = 'Site d\'une seule page qui resemble a une site des plusieurs pages.';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
@@ -289,19 +289,19 @@
           purchase_units: [{
             description: orderDescription,
             amount: {
-              currency_code: 'USD',
+              currency_code: 'CAD',
               value: priceTotal,
               breakdown: {
                 item_total: {
-                  currency_code: 'USD',
+                  currency_code: 'CAD',
                   value: itemTotalValue,
                 },
                 shipping: {
-                  currency_code: 'USD',
+                  currency_code: 'CAD',
                   value: shipping,
                 },
                 tax_total: {
-                  currency_code: 'USD',
+                  currency_code: 'CAD',
                   value: tax,
                 }
               }
@@ -309,7 +309,7 @@
             items: [{
               name: selectedItemDescription,
               unit_amount: {
-                currency_code: 'USD',
+                currency_code: 'CAD',
                 value: selectedItemPrice,
               },
               quantity: quantity
@@ -326,7 +326,7 @@
           // Show a success message within this page, e.g.
           const element = document.getElementById('paypal-button-container');
           element.innerHTML = '';
-          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+          element.innerHTML = '<h3>Merci de votre achat!</h3>';
 
           // Or go to another URL:  actions.redirect('thank_you.html');
 

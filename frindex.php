@@ -240,7 +240,7 @@
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Application d'une seule page qui resemble a une site des plusieurs pages.</p>
+          <p>Application d'une seule page qui resemble a une site des plusieurs pages. Par example: <a href="">Rade's Restaurant</a></p>
           <select id="item-options"><option value="Static Site" price="975">Site Statique - 975 CAD</option><option value="Dynamic site" price="1450">Site Dynamique - 1450 CAD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>

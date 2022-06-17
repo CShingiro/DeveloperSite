@@ -240,7 +240,7 @@
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Single Page Web Application that looks like a multi-page website. Example: <a href="https://radesrestaurant.ca">Rade's Restaurant</a></p>
+          <p>Single Page Web Application that looks like a multi-page website. Example: <a href="https://radesrestaurant.ca" target="_blank">Rade's Restaurant</a></p>
           <select id="item-options"><option value="Static Site" price="975">Static Site - 975 CAD</option><option value="Dynamic site" price="1450">Dynamic site - 1450 CAD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>

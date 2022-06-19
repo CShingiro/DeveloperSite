@@ -234,7 +234,7 @@
               <label for="dynamic_site_with_javascript">Dynamic Site With Javascript Animations - $1200 +$250 per page</label><br><br>
               <label for="notes">Notes/Special Instructions:</label><br>
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
-              <button class="btn btn-outline-dark" type="submit" formaction="request.php" name="site_request" formmethod="POST" value="Order Website"></button><br>
+              <button class="btn btn-outline-dark" type="submit" formaction="request.php" name="site_request" formmethod="POST">Order Website</button><br>
             </form><br><br>
             <h2 class="text-center">Quick Purchase: Single Page Application</h2>
             <div id="smart-button-container">
@@ -356,7 +356,7 @@
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-              <button class="btn btn-outline-dark" type="submit" formaction="#contact" formmethod="POST" name="contact" value="Contact Socially Radical Web Design"></button>
+              <button class="btn btn-outline-dark" type="submit" formaction="#contact" formmethod="POST" name="contact">Contact Socially Radical Web Design</button>
             </form><br>
             <?php
               if (isset($_POST['contact'])) {

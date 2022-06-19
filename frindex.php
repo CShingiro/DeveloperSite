@@ -234,7 +234,7 @@
               <label for="dynamic_site_with_javascript">Site Dynamic Avec des Animations Javascript - $1200 +$250 par page</label><br><br>
               <label for="notes">Remarques/Instructions Speciales:</label><br>
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Remarques/Instructions Speciales" name="notes" required></textarea><br>
-              <button class="btn btn-outline-dark" type="submit" formaction="frrequest.php" name="site_request" formmethod="POST" value="Demande Du Site"></button><br>
+              <button class="btn btn-outline-dark" type="submit" formaction="frrequest.php" name="site_request" formmethod="POST">Demande Du Site</button><br>
             </form><br><br>
             <h2 class="text-center">Achat Rapide: Application D'une Seule Page</h2>
             <div id="smart-button-container">
@@ -356,7 +356,7 @@
               <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
               <label for="message">Message:</label><br>
               <textarea style="height: 300px" class="form-control" id="message" placeholder="Message/Comment" name="message" required></textarea><br>
-              <button class="btn btn-outline-dark" type="submit" formaction="#contact" formmethod="POST" name="contact" value="Contacter Le CWSR"></button>
+              <button class="btn btn-outline-dark" type="submit" formaction="#contact" formmethod="POST" name="contact">Contacter Le CWSR</button>
             </form><br>
             <?php
               if (isset($_POST['contact'])) {

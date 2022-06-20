@@ -51,8 +51,8 @@
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <img src="Images/ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br><br>
-                    <p><strong>Christian Shingiro</strong> is a recent graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College.
-                      He already has a few projects under his belt, and is the web master and host of a radio show called <a href="https://sociallyradicalguitarist.com">
+                    <p><strong>Christian Shingiro</strong> is a graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College.
+                      He already has many projects under his belt, and is the web master and host of a radio show called <a href="https://sociallyradicalguitarist.com">
                       The Socially Radical Guitarist</a>. His specialties are UI/UX design, Wordpress, Bootstrap, Vuejs, PHP, MySQL, and general Full Stack web development on Linux.
                       He aims to be Socially Radical, while providing web services at a rate that's socially reasonable. You can go <a href="https://github.com/CShingiro">here</a>
                       for his public GitHub of complete and ongoing projects.
@@ -204,7 +204,7 @@
             <span class="text-danger">**Note: Please allow 4-6 weeks for delivery.**</span><br>
             <span class="text-danger">**Fees include cost of all required hosting services, including URL for one year, and MySQL space, if requested.**</span><br>
             <span class="text-danger">**Prices are all in Canadian Dollars (CAD).**</span><br>
-            <span class="text-danger">**All customers get SEO and social media support for an extra $150, if so requested.**</span><br><br>
+            <span class="text-danger">**All customers get SEO and social media support for an extra $150 (initial setup), and $100 weekly, if so requested.**</span><br><br>
             <form>
               <h3>Personal Information</h3><br>
               <label for="name">Full Name:</label><br>

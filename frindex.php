@@ -51,8 +51,8 @@
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <img src="Images/ChristianShingiro.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Photo of Christian Shingiro"><br><br>
-                    <p><strong>Christian Shingiro</strong> est un jeune dîplomé du programme Fondamentaux des applications Internet et du développement web à Conestoga College.
-                      Il a déjà quelques projets à son actif, et il est le webmestre et animateur d'une émission de radio intitulée <a href="https://sociallyradicalguitarist.com">
+                    <p><strong>Christian Shingiro</strong> est un dîplomé du programme Fondamentaux des applications Internet et du développement web à Conestoga College.
+                      Il a déjà plusieurs projets à son actif, et il est le webmestre et animateur d'une émission de radio intitulée <a href="https://sociallyradicalguitarist.com">
                       The Socially Radical Guitarist</a>. Ses spécialités sont la conception UI/UX, Wordpress, Bootstrap, Vuejs, PHP, MySQL et le développement Web général Full Stack sur Linux.
                       Il vise à être socialement radical, tout en fournissant des services Web à un tarif socialement raisonnable. Veuillez allez <a href="https://github.com/CShingiro">ici</a>
                       pour son GitHub public de projets complets et en cours.
@@ -204,7 +204,7 @@
             <span class="text-danger">**Remarque : Veuillez prévoir de 4 à 6 semaines pour la livraison.**</span><br>
             <span class="text-danger">**Les frais incluent le coût de tous les services d'hébergement requis, y compris l'URL pendant un an et l'espace MySQL, si demandé.**</span><br>
             <span class="text-danger">**Les prix sont tous en dollars canadiens (CAD).**</span><br>
-            <span class="text-danger">**Tous les clients bénéficient d'une assistance SEO et des médias sociaux pour un supplément de 150 $, si demandé.**</span><br><br>
+            <span class="text-danger">**Tous les clients bénéficient d'une assistance SEO et des médias sociaux pour un supplément de 150 $ (configuration initiale), et $100 par semaine, si demandé.**</span><br><br>
             <form>
               <h3>Renseignements Personnels</h3><br>
               <label for="name">Nom et Prénom:</label><br>

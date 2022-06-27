@@ -27,6 +27,7 @@
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#contact"><button type="button" class="btn btn-outline-dark">Contact</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php"><button type="button" class="btn btn-outline-dark"><img src="Images/united-kingdom.png" width="20px" height="20px">Anglais</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link disabled" aria-current="page" href="frindex.php"><button type="button" class="btn btn-outline-dark"><img src="Images/france.png" width="20px" height="20px">Français</button></a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="zhindex.php"><button type="button" class="btn btn-outline-dark"><img src="Images/china.png" width="20px" height="20px">Mandarin</button></a></li>
               </ul>
             </div>
           </div>
@@ -201,7 +202,7 @@
         <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
           <div id="request">
             <h2>Demander Un Projet</h2>
-            <span class="text-danger">**Remarque : Veuillez prévoir de 4 à 6 semaines pour la livraison.**</span><br>
+            <span class="text-danger">**Remarque : Veuillez prévoir de 4 à 6 semaines pour la livraison. Si votre demande est urgente, veuillez en informer le développeur.**</span><br>
             <span class="text-danger">**Les frais incluent le coût de tous les services d'hébergement requis, y compris l'URL pendant un an et l'espace MySQL, si demandé.**</span><br>
             <span class="text-danger">**Les prix sont tous en dollars canadiens (CAD).**</span><br>
             <span class="text-danger">**Tous les clients bénéficient d'une assistance SEO et des médias sociaux pour un supplément de 150 $ (configuration initiale), et $100 par semaine, si demandé.**</span><br><br>

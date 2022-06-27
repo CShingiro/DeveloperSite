@@ -25,7 +25,7 @@
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#about"><button type="button" class="btn btn-outline-dark">关于</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#request"><button type="button" class="btn btn-outline-dark">网站请求</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#contact"><button type="button" class="btn btn-outline-dark">联系表</button></a></li>
-                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-outline-dark"><img src="Images/united-kingdom.png" width="20px" height="20px">英语</button></a></li>
+                <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="index.php"><button type="button" class="btn btn-outline-dark"><img src="Images/united-kingdom.png" width="20px" height="20px">英语</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link active" aria-current="page" href="frindex.php"><button type="button" class="btn btn-outline-dark"><img src="Images/france.png" width="20px" height="20px">法语</button></a></li>
                 <li class="parent_navigation nav-item"><a class="navigation nav-link disabled" aria-current="page" href="zhindex.php"><button type="button" class="btn btn-outline-dark"><img src="Images/china.png" width="20px" height="20px">普通话</button></a></li>
               </ul>

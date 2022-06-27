@@ -235,7 +235,7 @@
               <label for="dynamic_site_with_javascript">带有 JavaScript 动画的动态网站 - $1200 +$250 每页</label><br><br>
               <label for="notes">注释或特别说明:</label><br>
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
-              <button class="btn btn-outline-dark" type="submit" formaction="zhrequest.php" name="site_request" formmethod="POST">Order Website</button><br>
+              <button class="btn btn-outline-dark" type="submit" formaction="zhrequest.php" name="site_request" formmethod="POST">请求网站</button><br>
             </form><br><br>
             <h2 class="text-center">快速购买：单页申请</h2>
             <div id="smart-button-container">

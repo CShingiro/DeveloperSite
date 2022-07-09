@@ -115,6 +115,7 @@
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -177,6 +178,13 @@
                           <img src="Images/Showcase9.png" class="d-block w-100" alt="Ninth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Animated Web Site for Rade's Restaurant</h5>
+                            <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Link to Site Here</a></p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase10.png" class="d-block w-100" alt="Ninth Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>Showcase site for Tsinghua University Global Summer School Project</h5>
                             <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>

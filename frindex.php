@@ -180,6 +180,13 @@
                             <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Lien Vers Le Site Ici</a></p>
                           </div>
                         </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase10.png" class="d-block w-100" alt="Ninth Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>Site Vitrine de l'École d'Été Mondiale de l'Université Tsinghua</h5>
+                            <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Link to Site Here</a></p>
+                          </div>
+                        </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

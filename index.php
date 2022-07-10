@@ -185,7 +185,7 @@
                           <img src="Images/Showcase10.png" class="d-block w-100" alt="Ninth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Showcase site for Tsinghua University Global Summer School Project</h5>
-                            <p><a class="link-light" href="https://radesrestaurant.ca" target="_blank">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://sunflower-edu-ai-build.vercel.app/#/" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                       </div>

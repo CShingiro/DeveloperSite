@@ -92,6 +92,9 @@
                     <object data="Images/CertificateCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>浏览器中不兼容的 PDF 查看器.</div>
                     </object><br><br>
+                    <object data="Images/mandarin-certificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>浏览器中不兼容的 PDF 查看器.</div>
+                    </object><br><br>
                     <img src="Images/FreeCodeCampCertificate.png" class="d-block w-100"><br>
                   </div>
                 </div>

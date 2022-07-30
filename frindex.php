@@ -86,7 +86,13 @@
                     <object data="Images/ConestogaCertificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>Pas disponible écran du PDF en browser.</div>
                     </object><br><br>
+                    <object data="Images/VuejsForgeCertificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>Pas disponible écran du PDF en browser.</div>
+                    </object><br><br>
                     <object data="Images/CertificateRubyCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>Pas disponible écran du PDF en browser.</div>
+                    </object><br><br>
+                    <object data="Images/CertificateReactCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>Pas disponible écran du PDF en browser.</div>
                     </object><br><br>
                     <object data="Images/CertificateCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">

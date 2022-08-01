@@ -98,6 +98,12 @@
                     <object data="Images/CertificateCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>浏览器中不兼容的 PDF 查看器.</div>
                     </object><br><br>
+                    <object data="Images/CertificateNodeCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>浏览器中不兼容的 PDF 查看器.</div>
+                    </object><br><br>
+                    <object data="Images/CertificateNodeSQLCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                      <div>浏览器中不兼容的 PDF 查看器.</div>
+                    </object><br><br>
                     <object data="Images/mandarin-certificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>浏览器中不兼容的 PDF 查看器.</div>
                     </object><br><br>

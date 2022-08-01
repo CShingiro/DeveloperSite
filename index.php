@@ -101,7 +101,7 @@
                     <object data="Images/CertificateNodeCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>Non compatible PDF viewer in browser.</div>
                     </object><br><br>
-                    <object data="Images/CertificateNodeSSQLCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
+                    <object data="Images/CertificateNodeSQLCodeCademy.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">
                       <div>Non compatible PDF viewer in browser.</div>
                     </object><br><br>
                     <object data="Images/mandarin-certificate.pdf#toolbar=0" type="application/pdf" width ="100%" height="500px">

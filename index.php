@@ -228,7 +228,8 @@
             <span class="text-danger">**Note: Please allow 4-6 weeks for delivery. If your request is urgent, please notify the developer.**</span><br>
             <span class="text-danger">**Fees include cost of all required hosting services, including URL for one year, and MySQL space, if requested.**</span><br>
             <span class="text-danger">**Prices are all in Canadian Dollars (CAD).**</span><br>
-            <span class="text-danger">**All customers get SEO and social media support for an extra $150 (initial setup), and $100 weekly, if so requested.**</span><br><br>
+            <span class="text-danger">**All customers get SEO and social media support for an extra $150 (initial setup), and $100 weekly, if so requested.**</span><br>
+            <span class="text-danger">**Those wanting to contact Socially Radical Web Design by phone, please use either Telegram or WhatsApp.**</span><br><br>
             <form>
               <h3>Personal Information</h3><br>
               <label for="name">Full Name:</label><br>

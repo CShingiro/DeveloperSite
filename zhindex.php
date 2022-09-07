@@ -228,7 +228,8 @@
             <span class="text-danger">**注意：请允许 四-六 周的交货时间。如果项目紧急，请通知开发商.**</span><br>
             <span class="text-danger">**费用包括所有所需托管服务的费用，包括一年的 URL 和 MySQL 空间（如果需要）。**</span><br>
             <span class="text-danger">**价格均以加元 (CAD) 为单位。**</span><br>
-            <span class="text-danger">**如果需要，所有客户都可以获得 150 加元（初始设置）和每周 100 加元的 SEO 和社交媒体支持。**</span><br><br>
+            <span class="text-danger">**如果需要，所有客户都可以获得 150 加元（初始设置）和每周 100 加元的 SEO 和社交媒体支持。**</span><br>
+            <span class="text-danger">**那些想通过电话联系社会激进网页设计的人，请使用电报或WhatsApp。**</span><br><br>
             <form>
               <h3>个人信息</h3><br>
               <label for="name">全名:</label><br>

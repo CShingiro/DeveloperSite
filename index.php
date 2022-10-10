@@ -280,7 +280,7 @@
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
     </div>
-        <div id="paypal-button-container"></div>
+        <div id="paypal-button-container">
         <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=CAD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
@@ -373,6 +373,7 @@
   }
   initPayPalButton();
     </script>
+    </div>
     </div>
         </div>
         <br>

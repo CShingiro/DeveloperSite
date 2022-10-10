@@ -264,7 +264,12 @@
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Notes/Special Instructions" name="notes" required></textarea><br>
               <button class="btn btn-outline-dark" type="submit" formaction="zhrequest.php" name="site_request" formmethod="POST">请求网站</button><br>
             </form><br><br>
-            <h2 class="text-center">快速购买：单页申请</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
+        <h2 class="text-center">快速购买：单页申请</h2>
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
@@ -369,9 +374,7 @@
     </script>
           </div>
         </div>
-        <br>
-        <br>
-        <br>
+        <br><br><br>
         <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
           <div id="contact">
             <h2>一般联系表</h2>

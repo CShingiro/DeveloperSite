@@ -279,10 +279,10 @@
           <select id="item-options"><option value="Static Site" price="975">Static Site - 975 CAD</option><option value="Dynamic site" price="1450">Dynamic site - 1450 CAD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
-    </div>
-        
-        <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=CAD" data-sdk-integration-source="button-factory"></script>
         <div id="paypal-button-container"></div>
+    </div>
+                      </div>
+        <script src="https://www.paypal.com/sdk/js?client-id=Ad72KkQLq2Jupv_X5yLZ9A3BGbJj4x2aigHfMc-0jV45VLeB_MAQJEe2aKegaCsiWOJk0LLAdcJVxCoV&enable-funding=venmo&currency=CAD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
         var shipping = 0;

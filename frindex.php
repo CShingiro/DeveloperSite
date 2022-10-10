@@ -263,7 +263,12 @@
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Remarques/Instructions Speciales" name="notes" required></textarea><br>
               <button class="btn btn-outline-dark" type="submit" formaction="frrequest.php" name="site_request" formmethod="POST">Demande Du Site</button><br>
             </form><br><br>
-            <h2 class="text-center">Achat Rapide: Application D'une Seule Page</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container bg-success bg-gradient bg-opacity-50 rounded-3 border border-dark border-5">
+        <h2 class="text-center">Achat Rapide: Application D'une Seule Page</h2>
             <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">

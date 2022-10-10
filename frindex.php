@@ -263,6 +263,7 @@
               <textarea style="height: 300px" class="form-control" id="notes" placeholder="Remarques/Instructions Speciales" name="notes" required></textarea><br>
               <button class="btn btn-outline-dark" type="submit" formaction="frrequest.php" name="site_request" formmethod="POST">Demande Du Site</button><br>
             </form><br><br>
+                      </div>
         </div>
         <br>
         <br>

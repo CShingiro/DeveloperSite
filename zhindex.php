@@ -265,6 +265,7 @@
               <button class="btn btn-outline-dark" type="submit" formaction="zhrequest.php" name="site_request" formmethod="POST">请求网站</button><br>
             </form><br><br>
         </div>
+</div>
         <br>
         <br>
         <br>

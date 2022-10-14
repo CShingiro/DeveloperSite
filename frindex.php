@@ -231,7 +231,7 @@
             <span class="text-danger">**Les frais incluent le coût de tous les services d'hébergement requis, y compris l'URL pendant un an et l'espace MySQL, si demandé.**</span><br>
             <span class="text-danger">**Les prix sont tous en dollars canadiens (CAD).**</span><br>
             <span class="text-danger">**Tous les clients bénéficient d'une assistance SEO et des médias sociaux pour un supplément de 150 $ (configuration initiale), et $100 par semaine, si demandé.**</span><br>
-            <span class="text-danger">**Ceux qui souhaitent contacter Socially Radical Web Design par téléphone, veuillez utiliser Telegram，WhatsApp, ou appelez directement le (905) 205-0873.**</span><br><br>
+            <span class="text-danger">**Ceux qui souhaitent contacter Socially Radical Web Design par téléphone, veuillez utiliser Telegram，WhatsApp, ou appelez directement le (647) 641-7893.**</span><br><br>
             <form>
               <h3>Renseignements Personnels</h3><br>
               <label for="name">Nom et Prénom:</label><br>

@@ -133,6 +133,8 @@
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -202,7 +204,14 @@
                           <img src="Images/Showcase10.png" class="d-block w-100" alt="Ninth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Site Vitrine de l'École d'Été Mondiale de l'Université Tsinghua</h5>
-                            <p><a class="link-light" href="https://sunflower-edu-ai-build.vercel.app/#/" target="_blank">Link to Site Here</a></p>
+                            <p><a class="link-light" href="https://sunflower-edu-ai-build.vercel.app/#/" target="_blank">Lien Vers Le Site Ici</a></p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase11.png" class="d-block w-100" alt="Eleventh Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>École de conduite de Joseph</h5>
+                            <p><a class="link-light" href="https://josephdriveschool.com" target="_blank">Lien Vers Le Site Ici</a></p>
                           </div>
                         </div>
                       </div>

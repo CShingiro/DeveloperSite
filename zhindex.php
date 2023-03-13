@@ -134,6 +134,7 @@
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -200,10 +201,17 @@
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="Images/Showcase10.png" class="d-block w-100" alt="Ninth Showcase Site">
+                          <img src="Images/Showcase10.png" class="d-block w-100" alt="Tenth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>清华大学全球暑期学校展示现场</h5>
                             <p><a class="link-light" href="https://sunflower-edu-ai-build.vercel.app/#/" target="_blank">链接到这里的网站</a></p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase11.png" class="d-block w-100" alt="Eleventh Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>约瑟夫驾驶学校</h5>
+                            <p><a class="link-light" href="https://josephdriveschool.com" target="_blank">链接到这里的网站</a></p>
                           </div>
                         </div>
                       </div>

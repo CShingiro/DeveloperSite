@@ -219,7 +219,7 @@
                           <img src="Images/Showcase12.png" class="d-block w-100" alt="Twelfth Showcase Site">
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>弗拉门戈节的网络开发咨询</h5>
-                            <p><a class="link-light" href="https://calujules.com" target="_blank">Lien Vers Le Site Ici</a></p>
+                            <p><a class="link-light" href="https://calujules.com" target="_blank">链接到这里的网站</a></p>
                           </div>
                         </div>
                       </div>

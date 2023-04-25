@@ -135,6 +135,7 @@
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
                         <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -212,6 +213,13 @@
                           <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
                             <h5>Joseph Driving School Site</h5>
                             <p><a class="link-light" href="https://josephdriveschool.com" target="_blank">Link to Site Here</a></p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Images/Showcase12.png" class="d-block w-100" alt="Twelfth Showcase Site">
+                          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                            <h5>Web Development Consultation for Flamenco Festival</h5>
+                            <p><a class="link-light" href="https://calujules.com" target="_blank">Link to Site Here</a></p>
                           </div>
                         </div>
                       </div>
